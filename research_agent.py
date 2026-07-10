@@ -24,7 +24,7 @@ from typing import Optional
 from dotenv import load_dotenv
 from pydantic import ValidationError
 
-load_dotenv()
+load_dotenv(override=True)
 
 # ---------------------------------------------------------------------------
 # Lazy imports — only load SDK when needed so tests that mock can run

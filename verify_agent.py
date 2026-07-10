@@ -22,7 +22,7 @@ from dotenv import load_dotenv
 
 from schema import AppResearch, VerificationDiff, AccuracyReport
 
-load_dotenv()
+load_dotenv(override=True)
 
 logger = logging.getLogger(__name__)
 logging.basicConfig(
