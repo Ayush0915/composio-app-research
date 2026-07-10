@@ -1,0 +1,20 @@
+# Environments
+.env
+
+# Checkpoints (ignore user progress)
+checkpoints/progress.json
+checkpoints/
+
+# Python caching
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.venv/
+venv/
+env/
+
+# IDE files
+.vscode/
+.idea/

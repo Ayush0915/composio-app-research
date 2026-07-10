@@ -1,0 +1,125 @@
+{
+  "total_apps": 100,
+  "auth_distribution": {
+    "OAuth2": {
+      "count": 90,
+      "percent": 90.0
+    },
+    "API key": {
+      "count": 11,
+      "percent": 11.0
+    },
+    "Bearer token": {
+      "count": 3,
+      "percent": 3.0
+    },
+    "Basic": {
+      "count": 2,
+      "percent": 2.0
+    },
+    "SAML": {
+      "count": 1,
+      "percent": 1.0
+    },
+    "none": {
+      "count": 1,
+      "percent": 1.0
+    },
+    "token": {
+      "count": 1,
+      "percent": 1.0
+    }
+  },
+  "access_model_distribution": {
+    "self-serve-free": {
+      "count": 82,
+      "percent": 82.0
+    },
+    "self-serve-paid": {
+      "count": 11,
+      "percent": 11.0
+    },
+    "gated-partnership": {
+      "count": 4,
+      "percent": 4.0
+    },
+    "gated-approval": {
+      "count": 2,
+      "percent": 2.0
+    },
+    "not-applicable": {
+      "count": 1,
+      "percent": 1.0
+    }
+  },
+  "category_x_access_model": {
+    "CRM/Sales": {
+      "self-serve-free": 7,
+      "self-serve-paid": 1,
+      "gated-partnership": 2
+    },
+    "Support/Helpdesk": {
+      "self-serve-free": 9,
+      "gated-partnership": 1
+    },
+    "Communications/Messaging": {
+      "self-serve-free": 9,
+      "gated-approval": 1
+    },
+    "Marketing/Ads/Email/Social": {
+      "self-serve-free": 8,
+      "self-serve-paid": 2
+    },
+    "Ecommerce": {
+      "self-serve-free": 9,
+      "gated-approval": 1
+    },
+    "Data/SEO/Scraping": {
+      "self-serve-paid": 3,
+      "not-applicable": 1,
+      "self-serve-free": 6
+    },
+    "Developer/Infra/Data platforms": {
+      "self-serve-free": 10
+    },
+    "Productivity/Project Management": {
+      "self-serve-free": 10
+    },
+    "Finance/Fintech": {
+      "self-serve-free": 7,
+      "self-serve-paid": 3
+    },
+    "AI/Research/Media-native": {
+      "self-serve-free": 7,
+      "self-serve-paid": 2,
+      "gated-partnership": 1
+    }
+  },
+  "blocker_frequency": {
+    "Paid subscription plan required to retrieve API tokens; no free tier.": 3,
+    "Requires active partnership contact or enterprise tier sales gate.": 2,
+    "API credentials only available for paying customers; no trial environment.": 1,
+    "Requires professional seller account credentials and AWS IAM registration.": 1,
+    "No public developer API documentation available; waitlist/contact form only.": 1
+  },
+  "mcp_distribution": {
+    "mcp_exists": {
+      "count": 11,
+      "percent": 11.0
+    },
+    "mcp_not_found": {
+      "count": 89,
+      "percent": 89.0
+    }
+  },
+  "buildability_summary": {
+    "ready_today": {
+      "count": 92,
+      "percent": 92.0
+    },
+    "blocked": {
+      "count": 8,
+      "percent": 8.0
+    }
+  }
+}

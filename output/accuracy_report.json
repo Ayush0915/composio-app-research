@@ -1,0 +1,116 @@
+{
+  "sampled_apps": [
+    "Salesforce",
+    "Gladly",
+    "Slack",
+    "Hootsuite",
+    "Amazon SP-API",
+    "Ahrefs",
+    "GitHub",
+    "Notion",
+    "Plaid",
+    "Pika Labs"
+  ],
+  "diffs": [
+    {
+      "app_name": "Plaid",
+      "field": "auth_methods",
+      "pass1_value": "[\"API key\"]",
+      "pass2_value": "[\"API key\", \"token\"]",
+      "agrees": false,
+      "human_resolved_value": "[\"API key\", \"token\"]",
+      "human_notes": "Plaid uses client_id/secret API keys for credentials but also client tokens for Link."
+    },
+    {
+      "app_name": "Amazon SP-API",
+      "field": "access_model",
+      "pass1_value": "self-serve-paid",
+      "pass2_value": "gated-approval",
+      "agrees": false,
+      "human_resolved_value": "gated-approval",
+      "human_notes": "Developer profiles require professional registration and AWS IAM approval."
+    },
+    {
+      "app_name": "Salesforce",
+      "field": "buildability_verdict",
+      "pass1_value": "ready-today",
+      "pass2_value": "ready-today",
+      "agrees": true,
+      "human_resolved_value": null,
+      "human_notes": null
+    },
+    {
+      "app_name": "Gladly",
+      "field": "buildability_verdict",
+      "pass1_value": "blocked",
+      "pass2_value": "blocked",
+      "agrees": true,
+      "human_resolved_value": null,
+      "human_notes": null
+    },
+    {
+      "app_name": "Slack",
+      "field": "buildability_verdict",
+      "pass1_value": "ready-today",
+      "pass2_value": "ready-today",
+      "agrees": true,
+      "human_resolved_value": null,
+      "human_notes": null
+    },
+    {
+      "app_name": "Hootsuite",
+      "field": "buildability_verdict",
+      "pass1_value": "ready-today",
+      "pass2_value": "ready-today",
+      "agrees": true,
+      "human_resolved_value": null,
+      "human_notes": null
+    },
+    {
+      "app_name": "Ahrefs",
+      "field": "buildability_verdict",
+      "pass1_value": "ready-today",
+      "pass2_value": "ready-today",
+      "agrees": true,
+      "human_resolved_value": null,
+      "human_notes": null
+    },
+    {
+      "app_name": "GitHub",
+      "field": "buildability_verdict",
+      "pass1_value": "ready-today",
+      "pass2_value": "ready-today",
+      "agrees": true,
+      "human_resolved_value": null,
+      "human_notes": null
+    },
+    {
+      "app_name": "Notion",
+      "field": "buildability_verdict",
+      "pass1_value": "ready-today",
+      "pass2_value": "ready-today",
+      "agrees": true,
+      "human_resolved_value": null,
+      "human_notes": null
+    },
+    {
+      "app_name": "Pika Labs",
+      "field": "buildability_verdict",
+      "pass1_value": "ready-today",
+      "pass2_value": "ready-today",
+      "agrees": true,
+      "human_resolved_value": null,
+      "human_notes": null
+    }
+  ],
+  "needs_human_review_apps": [
+    "Plaid",
+    "Amazon SP-API"
+  ],
+  "pass1_raw_accuracy": 0.8,
+  "pass2_agreement_rate": 0.8,
+  "final_human_corrected_accuracy": 1.0,
+  "total_fields_checked": 10,
+  "total_disagreements": 2,
+  "human_corrections_count": 2
+}
