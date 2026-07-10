@@ -1,12 +1,11 @@
 # Composio App Research Pipeline — Requirements
 # Install with: pip install -r requirements.txt
 
-# Composio SDK
-composio-core>=0.7.0
-composio-google>=0.7.0
+# Composio SDK integrations
+composio-openai>=0.7.0
 
-# LLM — Google Gemini (free tier)
-google-genai>=2.0.0
+# LLM — Groq SDK
+groq>=0.9.0
 
 # Search tool
 tavily-python>=0.5.0

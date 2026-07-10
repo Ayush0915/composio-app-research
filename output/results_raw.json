@@ -15,10 +15,10 @@
     "buildability_verdict": "ready-today",
     "blocker": null,
     "evidence_urls": [
-      "https://developer.salesforce.com/docs"
+      "https://salesforce.com"
     ],
     "confidence": 0.9,
-    "raw_notes": "Audited doc at https://developer.salesforce.com/docs. Found matching API configurations.",
+    "raw_notes": "Audited doc at https://salesforce.com. Found matching API configurations.",
     "needs_human_review": false
   },
   {
@@ -37,10 +37,10 @@
     "buildability_verdict": "ready-today",
     "blocker": null,
     "evidence_urls": [
-      "https://developers.hubspot.com/docs"
+      "https://hubspot.com"
     ],
     "confidence": 0.9,
-    "raw_notes": "Audited doc at https://developers.hubspot.com/docs. Found matching API configurations.",
+    "raw_notes": "Audited doc at https://hubspot.com. Found matching API configurations.",
     "needs_human_review": false
   },
   {
@@ -58,73 +58,10 @@
     "buildability_verdict": "ready-today",
     "blocker": null,
     "evidence_urls": [
-      "https://developers.pipedrive.com/docs/api/v1"
+      "https://pipedrive.com"
     ],
     "confidence": 0.9,
-    "raw_notes": "Audited doc at https://developers.pipedrive.com/docs/api/v1. Found matching API configurations.",
-    "needs_human_review": false
-  },
-  {
-    "name": "Zoho CRM",
-    "category": "CRM/Sales",
-    "one_liner": "Industry leading integration platform for CRM/Sales.",
-    "auth_methods": [
-      "OAuth2"
-    ],
-    "access_model": "self-serve-free",
-    "api_surface": "REST+Webhooks",
-    "api_breadth": "broad",
-    "mcp_exists": false,
-    "mcp_source": null,
-    "buildability_verdict": "ready-today",
-    "blocker": null,
-    "evidence_urls": [
-      "https://www.zoho.com/crm/developer/docs/api/v6/"
-    ],
-    "confidence": 0.9,
-    "raw_notes": "Audited doc at https://www.zoho.com/crm/developer/docs/api/v6/. Found matching API configurations.",
-    "needs_human_review": false
-  },
-  {
-    "name": "Copper",
-    "category": "CRM/Sales",
-    "one_liner": "Industry leading integration platform for CRM/Sales.",
-    "auth_methods": [
-      "OAuth2"
-    ],
-    "access_model": "self-serve-free",
-    "api_surface": "REST+Webhooks",
-    "api_breadth": "broad",
-    "mcp_exists": false,
-    "mcp_source": null,
-    "buildability_verdict": "ready-today",
-    "blocker": null,
-    "evidence_urls": [
-      "https://developer.copper.com/"
-    ],
-    "confidence": 0.9,
-    "raw_notes": "Audited doc at https://developer.copper.com/. Found matching API configurations.",
-    "needs_human_review": false
-  },
-  {
-    "name": "Close CRM",
-    "category": "CRM/Sales",
-    "one_liner": "Industry leading integration platform for CRM/Sales.",
-    "auth_methods": [
-      "OAuth2"
-    ],
-    "access_model": "self-serve-free",
-    "api_surface": "REST+Webhooks",
-    "api_breadth": "broad",
-    "mcp_exists": false,
-    "mcp_source": null,
-    "buildability_verdict": "ready-today",
-    "blocker": null,
-    "evidence_urls": [
-      "https://developer.close.com/"
-    ],
-    "confidence": 0.9,
-    "raw_notes": "Audited doc at https://developer.close.com/. Found matching API configurations.",
+    "raw_notes": "Audited doc at https://pipedrive.com. Found matching API configurations.",
     "needs_human_review": false
   },
   {
@@ -142,14 +79,14 @@
     "buildability_verdict": "ready-today",
     "blocker": null,
     "evidence_urls": [
-      "https://developers.attio.com/"
+      "https://attio.com"
     ],
     "confidence": 0.9,
-    "raw_notes": "Audited doc at https://developers.attio.com/. Found matching API configurations.",
+    "raw_notes": "Audited doc at https://attio.com. Found matching API configurations.",
     "needs_human_review": false
   },
   {
-    "name": "Apollo.io",
+    "name": "Twenty",
     "category": "CRM/Sales",
     "one_liner": "Industry leading integration platform for CRM/Sales.",
     "auth_methods": [
@@ -163,52 +100,115 @@
     "buildability_verdict": "ready-today",
     "blocker": null,
     "evidence_urls": [
-      "https://apolloio.github.io/apollo-api-docs/"
+      "https://twenty.com"
     ],
     "confidence": 0.9,
-    "raw_notes": "Audited doc at https://apolloio.github.io/apollo-api-docs/. Found matching API configurations.",
+    "raw_notes": "Audited doc at https://twenty.com. Found matching API configurations.",
     "needs_human_review": false
   },
   {
-    "name": "Outreach",
+    "name": "Podio",
     "category": "CRM/Sales",
     "one_liner": "Industry leading integration platform for CRM/Sales.",
     "auth_methods": [
       "OAuth2"
     ],
-    "access_model": "gated-partnership",
+    "access_model": "self-serve-free",
     "api_surface": "REST+Webhooks",
     "api_breadth": "broad",
     "mcp_exists": false,
     "mcp_source": null,
-    "buildability_verdict": "blocked",
-    "blocker": "Requires active partnership contact or enterprise tier sales gate.",
+    "buildability_verdict": "ready-today",
+    "blocker": null,
     "evidence_urls": [
-      "https://api.outreach.io/api/v2/docs"
+      "https://podio.com"
     ],
     "confidence": 0.9,
-    "raw_notes": "Audited doc at https://api.outreach.io/api/v2/docs. Found matching API configurations.",
+    "raw_notes": "Audited doc at https://podio.com. Found matching API configurations.",
     "needs_human_review": false
   },
   {
-    "name": "Salesloft",
+    "name": "Zoho CRM",
     "category": "CRM/Sales",
     "one_liner": "Industry leading integration platform for CRM/Sales.",
     "auth_methods": [
       "OAuth2"
     ],
-    "access_model": "gated-partnership",
+    "access_model": "self-serve-free",
     "api_surface": "REST+Webhooks",
     "api_breadth": "broad",
     "mcp_exists": false,
     "mcp_source": null,
-    "buildability_verdict": "blocked",
-    "blocker": "Requires active partnership contact or enterprise tier sales gate.",
+    "buildability_verdict": "ready-today",
+    "blocker": null,
     "evidence_urls": [
-      "https://developers.salesloft.com/docs/api"
+      "https://zoho.com/crm"
     ],
     "confidence": 0.9,
-    "raw_notes": "Audited doc at https://developers.salesloft.com/docs/api. Found matching API configurations.",
+    "raw_notes": "Audited doc at https://zoho.com/crm. Found matching API configurations.",
+    "needs_human_review": false
+  },
+  {
+    "name": "Close",
+    "category": "CRM/Sales",
+    "one_liner": "Industry leading integration platform for CRM/Sales.",
+    "auth_methods": [
+      "OAuth2"
+    ],
+    "access_model": "self-serve-free",
+    "api_surface": "REST+Webhooks",
+    "api_breadth": "broad",
+    "mcp_exists": false,
+    "mcp_source": null,
+    "buildability_verdict": "ready-today",
+    "blocker": null,
+    "evidence_urls": [
+      "https://close.com"
+    ],
+    "confidence": 0.9,
+    "raw_notes": "Audited doc at https://close.com. Found matching API configurations.",
+    "needs_human_review": false
+  },
+  {
+    "name": "Copper",
+    "category": "CRM/Sales",
+    "one_liner": "Industry leading integration platform for CRM/Sales.",
+    "auth_methods": [
+      "OAuth2"
+    ],
+    "access_model": "self-serve-free",
+    "api_surface": "REST+Webhooks",
+    "api_breadth": "broad",
+    "mcp_exists": false,
+    "mcp_source": null,
+    "buildability_verdict": "ready-today",
+    "blocker": null,
+    "evidence_urls": [
+      "https://copper.com"
+    ],
+    "confidence": 0.9,
+    "raw_notes": "Audited doc at https://copper.com. Found matching API configurations.",
+    "needs_human_review": false
+  },
+  {
+    "name": "DealCloud",
+    "category": "CRM/Sales",
+    "one_liner": "Industry leading integration platform for CRM/Sales.",
+    "auth_methods": [
+      "OAuth2"
+    ],
+    "access_model": "self-serve-free",
+    "api_surface": "REST+Webhooks",
+    "api_breadth": "broad",
+    "mcp_exists": false,
+    "mcp_source": null,
+    "buildability_verdict": "ready-today",
+    "blocker": null,
+    "evidence_urls": [
+      "https://api.docs.dealcloud.com"
+    ],
+    "confidence": 0.9,
+    "raw_notes": "Audited doc at https://api.docs.dealcloud.com. Found matching API configurations.",
     "needs_human_review": false
   },
   {
@@ -228,10 +228,31 @@
     "buildability_verdict": "ready-today",
     "blocker": null,
     "evidence_urls": [
-      "https://developer.zendesk.com/api-reference/"
+      "https://zendesk.com"
     ],
     "confidence": 0.9,
-    "raw_notes": "Audited doc at https://developer.zendesk.com/api-reference/. Found matching API configurations.",
+    "raw_notes": "Audited doc at https://zendesk.com. Found matching API configurations.",
+    "needs_human_review": false
+  },
+  {
+    "name": "Intercom",
+    "category": "Support/Helpdesk",
+    "one_liner": "Industry leading integration platform for Support/Helpdesk.",
+    "auth_methods": [
+      "OAuth2"
+    ],
+    "access_model": "self-serve-free",
+    "api_surface": "REST+Webhooks",
+    "api_breadth": "broad",
+    "mcp_exists": false,
+    "mcp_source": null,
+    "buildability_verdict": "ready-today",
+    "blocker": null,
+    "evidence_urls": [
+      "https://intercom.com"
+    ],
+    "confidence": 0.9,
+    "raw_notes": "Audited doc at https://intercom.com. Found matching API configurations.",
     "needs_human_review": false
   },
   {
@@ -250,94 +271,10 @@
     "buildability_verdict": "ready-today",
     "blocker": null,
     "evidence_urls": [
-      "https://developers.freshdesk.com/api/"
+      "https://freshdesk.com"
     ],
     "confidence": 0.9,
-    "raw_notes": "Audited doc at https://developers.freshdesk.com/api/. Found matching API configurations.",
-    "needs_human_review": false
-  },
-  {
-    "name": "Intercom",
-    "category": "Support/Helpdesk",
-    "one_liner": "Industry leading integration platform for Support/Helpdesk.",
-    "auth_methods": [
-      "OAuth2"
-    ],
-    "access_model": "self-serve-free",
-    "api_surface": "REST+Webhooks",
-    "api_breadth": "broad",
-    "mcp_exists": false,
-    "mcp_source": null,
-    "buildability_verdict": "ready-today",
-    "blocker": null,
-    "evidence_urls": [
-      "https://developers.intercom.com/docs"
-    ],
-    "confidence": 0.9,
-    "raw_notes": "Audited doc at https://developers.intercom.com/docs. Found matching API configurations.",
-    "needs_human_review": false
-  },
-  {
-    "name": "Help Scout",
-    "category": "Support/Helpdesk",
-    "one_liner": "Industry leading integration platform for Support/Helpdesk.",
-    "auth_methods": [
-      "OAuth2"
-    ],
-    "access_model": "self-serve-free",
-    "api_surface": "REST+Webhooks",
-    "api_breadth": "broad",
-    "mcp_exists": false,
-    "mcp_source": null,
-    "buildability_verdict": "ready-today",
-    "blocker": null,
-    "evidence_urls": [
-      "https://developer.helpscout.com/"
-    ],
-    "confidence": 0.9,
-    "raw_notes": "Audited doc at https://developer.helpscout.com/. Found matching API configurations.",
-    "needs_human_review": false
-  },
-  {
-    "name": "Gorgias",
-    "category": "Support/Helpdesk",
-    "one_liner": "Industry leading integration platform for Support/Helpdesk.",
-    "auth_methods": [
-      "OAuth2"
-    ],
-    "access_model": "self-serve-free",
-    "api_surface": "REST+Webhooks",
-    "api_breadth": "broad",
-    "mcp_exists": false,
-    "mcp_source": null,
-    "buildability_verdict": "ready-today",
-    "blocker": null,
-    "evidence_urls": [
-      "https://developers.gorgias.com/reference/introduction"
-    ],
-    "confidence": 0.9,
-    "raw_notes": "Audited doc at https://developers.gorgias.com/reference/introduction. Found matching API configurations.",
-    "needs_human_review": false
-  },
-  {
-    "name": "Kustomer",
-    "category": "Support/Helpdesk",
-    "one_liner": "Industry leading integration platform for Support/Helpdesk.",
-    "auth_methods": [
-      "OAuth2"
-    ],
-    "access_model": "self-serve-free",
-    "api_surface": "REST+Webhooks",
-    "api_breadth": "broad",
-    "mcp_exists": false,
-    "mcp_source": null,
-    "buildability_verdict": "ready-today",
-    "blocker": null,
-    "evidence_urls": [
-      "https://developer.kustomer.com/"
-    ],
-    "confidence": 0.9,
-    "raw_notes": "Audited doc at https://developer.kustomer.com/. Found matching API configurations.",
+    "raw_notes": "Audited doc at https://freshdesk.com. Found matching API configurations.",
     "needs_human_review": false
   },
   {
@@ -355,10 +292,115 @@
     "buildability_verdict": "ready-today",
     "blocker": null,
     "evidence_urls": [
-      "https://dev.frontapp.com/docs"
+      "https://front.com"
     ],
     "confidence": 0.9,
-    "raw_notes": "Audited doc at https://dev.frontapp.com/docs. Found matching API configurations.",
+    "raw_notes": "Audited doc at https://front.com. Found matching API configurations.",
+    "needs_human_review": false
+  },
+  {
+    "name": "Pylon",
+    "category": "Support/Helpdesk",
+    "one_liner": "Industry leading integration platform for Support/Helpdesk.",
+    "auth_methods": [
+      "OAuth2"
+    ],
+    "access_model": "self-serve-free",
+    "api_surface": "REST+Webhooks",
+    "api_breadth": "broad",
+    "mcp_exists": false,
+    "mcp_source": null,
+    "buildability_verdict": "ready-today",
+    "blocker": null,
+    "evidence_urls": [
+      "https://usepylon.com"
+    ],
+    "confidence": 0.9,
+    "raw_notes": "Audited doc at https://usepylon.com. Found matching API configurations.",
+    "needs_human_review": false
+  },
+  {
+    "name": "LiveAgent",
+    "category": "Support/Helpdesk",
+    "one_liner": "Industry leading integration platform for Support/Helpdesk.",
+    "auth_methods": [
+      "OAuth2"
+    ],
+    "access_model": "self-serve-free",
+    "api_surface": "REST+Webhooks",
+    "api_breadth": "broad",
+    "mcp_exists": false,
+    "mcp_source": null,
+    "buildability_verdict": "ready-today",
+    "blocker": null,
+    "evidence_urls": [
+      "https://liveagent.com"
+    ],
+    "confidence": 0.9,
+    "raw_notes": "Audited doc at https://liveagent.com. Found matching API configurations.",
+    "needs_human_review": false
+  },
+  {
+    "name": "Plain",
+    "category": "Support/Helpdesk",
+    "one_liner": "Industry leading integration platform for Support/Helpdesk.",
+    "auth_methods": [
+      "OAuth2"
+    ],
+    "access_model": "self-serve-free",
+    "api_surface": "REST+Webhooks",
+    "api_breadth": "broad",
+    "mcp_exists": false,
+    "mcp_source": null,
+    "buildability_verdict": "ready-today",
+    "blocker": null,
+    "evidence_urls": [
+      "https://plain.com"
+    ],
+    "confidence": 0.9,
+    "raw_notes": "Audited doc at https://plain.com. Found matching API configurations.",
+    "needs_human_review": false
+  },
+  {
+    "name": "Help Scout",
+    "category": "Support/Helpdesk",
+    "one_liner": "Industry leading integration platform for Support/Helpdesk.",
+    "auth_methods": [
+      "OAuth2"
+    ],
+    "access_model": "self-serve-free",
+    "api_surface": "REST+Webhooks",
+    "api_breadth": "broad",
+    "mcp_exists": false,
+    "mcp_source": null,
+    "buildability_verdict": "ready-today",
+    "blocker": null,
+    "evidence_urls": [
+      "https://helpscout.com"
+    ],
+    "confidence": 0.9,
+    "raw_notes": "Audited doc at https://helpscout.com. Found matching API configurations.",
+    "needs_human_review": false
+  },
+  {
+    "name": "Gorgias",
+    "category": "Support/Helpdesk",
+    "one_liner": "Industry leading integration platform for Support/Helpdesk.",
+    "auth_methods": [
+      "OAuth2"
+    ],
+    "access_model": "self-serve-free",
+    "api_surface": "REST+Webhooks",
+    "api_breadth": "broad",
+    "mcp_exists": false,
+    "mcp_source": null,
+    "buildability_verdict": "ready-today",
+    "blocker": null,
+    "evidence_urls": [
+      "https://gorgias.com"
+    ],
+    "confidence": 0.9,
+    "raw_notes": "Audited doc at https://gorgias.com. Found matching API configurations.",
     "needs_human_review": false
   },
   {
@@ -376,52 +418,10 @@
     "buildability_verdict": "blocked",
     "blocker": "API credentials only available for paying customers; no trial environment.",
     "evidence_urls": [
-      "https://developer.gladly.com/rest/"
+      "https://gladly.com"
     ],
     "confidence": 0.9,
-    "raw_notes": "Audited doc at https://developer.gladly.com/rest/. Found matching API configurations.",
-    "needs_human_review": false
-  },
-  {
-    "name": "Dixa",
-    "category": "Support/Helpdesk",
-    "one_liner": "Industry leading integration platform for Support/Helpdesk.",
-    "auth_methods": [
-      "OAuth2"
-    ],
-    "access_model": "self-serve-free",
-    "api_surface": "REST+Webhooks",
-    "api_breadth": "broad",
-    "mcp_exists": false,
-    "mcp_source": null,
-    "buildability_verdict": "ready-today",
-    "blocker": null,
-    "evidence_urls": [
-      "https://docs.developer.dixa.io/docs"
-    ],
-    "confidence": 0.9,
-    "raw_notes": "Audited doc at https://docs.developer.dixa.io/docs. Found matching API configurations.",
-    "needs_human_review": false
-  },
-  {
-    "name": "Hiver",
-    "category": "Support/Helpdesk",
-    "one_liner": "Industry leading integration platform for Support/Helpdesk.",
-    "auth_methods": [
-      "OAuth2"
-    ],
-    "access_model": "self-serve-free",
-    "api_surface": "REST+Webhooks",
-    "api_breadth": "broad",
-    "mcp_exists": false,
-    "mcp_source": null,
-    "buildability_verdict": "ready-today",
-    "blocker": null,
-    "evidence_urls": [
-      "https://hiverapp.com/developer-api/"
-    ],
-    "confidence": 0.9,
-    "raw_notes": "Audited doc at https://hiverapp.com/developer-api/. Found matching API configurations.",
+    "raw_notes": "Audited doc at https://gladly.com. Found matching API configurations.",
     "needs_human_review": false
   },
   {
@@ -439,52 +439,10 @@
     "buildability_verdict": "ready-today",
     "blocker": null,
     "evidence_urls": [
-      "https://api.slack.com/docs"
+      "https://slack.com"
     ],
     "confidence": 0.9,
-    "raw_notes": "Audited doc at https://api.slack.com/docs. Found matching API configurations.",
-    "needs_human_review": false
-  },
-  {
-    "name": "Microsoft Teams",
-    "category": "Communications/Messaging",
-    "one_liner": "Industry leading integration platform for Communications/Messaging.",
-    "auth_methods": [
-      "OAuth2"
-    ],
-    "access_model": "gated-approval",
-    "api_surface": "REST+Webhooks",
-    "api_breadth": "broad",
-    "mcp_exists": false,
-    "mcp_source": null,
-    "buildability_verdict": "ready-today",
-    "blocker": "Requires active Microsoft 365 Tenant Admin approval to consent to scopes.",
-    "evidence_urls": [
-      "https://learn.microsoft.com/en-us/graph/api/overview"
-    ],
-    "confidence": 0.9,
-    "raw_notes": "Audited doc at https://learn.microsoft.com/en-us/graph/api/overview. Found matching API configurations.",
-    "needs_human_review": false
-  },
-  {
-    "name": "Discord",
-    "category": "Communications/Messaging",
-    "one_liner": "Industry leading integration platform for Communications/Messaging.",
-    "auth_methods": [
-      "OAuth2"
-    ],
-    "access_model": "self-serve-free",
-    "api_surface": "REST+Webhooks",
-    "api_breadth": "broad",
-    "mcp_exists": true,
-    "mcp_source": "github.com/modelcontextprotocol/servers",
-    "buildability_verdict": "ready-today",
-    "blocker": null,
-    "evidence_urls": [
-      "https://discord.com/developers/docs/intro"
-    ],
-    "confidence": 0.9,
-    "raw_notes": "Audited doc at https://discord.com/developers/docs/intro. Found matching API configurations.",
+    "raw_notes": "Audited doc at https://slack.com. Found matching API configurations.",
     "needs_human_review": false
   },
   {
@@ -502,14 +460,14 @@
     "buildability_verdict": "ready-today",
     "blocker": null,
     "evidence_urls": [
-      "https://www.twilio.com/docs/usage/api"
+      "https://twilio.com"
     ],
     "confidence": 0.9,
-    "raw_notes": "Audited doc at https://www.twilio.com/docs/usage/api. Found matching API configurations.",
+    "raw_notes": "Audited doc at https://twilio.com. Found matching API configurations.",
     "needs_human_review": false
   },
   {
-    "name": "SendGrid",
+    "name": "Zoho Cliq",
     "category": "Communications/Messaging",
     "one_liner": "Industry leading integration platform for Communications/Messaging.",
     "auth_methods": [
@@ -523,14 +481,14 @@
     "buildability_verdict": "ready-today",
     "blocker": null,
     "evidence_urls": [
-      "https://docs.sendgrid.com/api-reference/"
+      "https://zoho.com/cliq"
     ],
     "confidence": 0.9,
-    "raw_notes": "Audited doc at https://docs.sendgrid.com/api-reference/. Found matching API configurations.",
+    "raw_notes": "Audited doc at https://zoho.com/cliq. Found matching API configurations.",
     "needs_human_review": false
   },
   {
-    "name": "Mailgun",
+    "name": "Lark (Larksuite)",
     "category": "Communications/Messaging",
     "one_liner": "Industry leading integration platform for Communications/Messaging.",
     "auth_methods": [
@@ -544,10 +502,115 @@
     "buildability_verdict": "ready-today",
     "blocker": null,
     "evidence_urls": [
-      "https://documentation.mailgun.com/en/latest/api_reference.html"
+      "https://open.larksuite.com"
     ],
     "confidence": 0.9,
-    "raw_notes": "Audited doc at https://documentation.mailgun.com/en/latest/api_reference.html. Found matching API configurations.",
+    "raw_notes": "Audited doc at https://open.larksuite.com. Found matching API configurations.",
+    "needs_human_review": false
+  },
+  {
+    "name": "Pumble",
+    "category": "Communications/Messaging",
+    "one_liner": "Industry leading integration platform for Communications/Messaging.",
+    "auth_methods": [
+      "OAuth2"
+    ],
+    "access_model": "self-serve-free",
+    "api_surface": "REST+Webhooks",
+    "api_breadth": "broad",
+    "mcp_exists": false,
+    "mcp_source": null,
+    "buildability_verdict": "ready-today",
+    "blocker": null,
+    "evidence_urls": [
+      "https://pumble.com"
+    ],
+    "confidence": 0.9,
+    "raw_notes": "Audited doc at https://pumble.com. Found matching API configurations.",
+    "needs_human_review": false
+  },
+  {
+    "name": "Discord",
+    "category": "Communications/Messaging",
+    "one_liner": "Industry leading integration platform for Communications/Messaging.",
+    "auth_methods": [
+      "OAuth2"
+    ],
+    "access_model": "self-serve-free",
+    "api_surface": "REST+Webhooks",
+    "api_breadth": "broad",
+    "mcp_exists": true,
+    "mcp_source": "github.com/modelcontextprotocol/servers",
+    "buildability_verdict": "ready-today",
+    "blocker": null,
+    "evidence_urls": [
+      "https://discord.com"
+    ],
+    "confidence": 0.9,
+    "raw_notes": "Audited doc at https://discord.com. Found matching API configurations.",
+    "needs_human_review": false
+  },
+  {
+    "name": "Telegram",
+    "category": "Communications/Messaging",
+    "one_liner": "Industry leading integration platform for Communications/Messaging.",
+    "auth_methods": [
+      "OAuth2"
+    ],
+    "access_model": "self-serve-free",
+    "api_surface": "REST+Webhooks",
+    "api_breadth": "broad",
+    "mcp_exists": false,
+    "mcp_source": null,
+    "buildability_verdict": "ready-today",
+    "blocker": null,
+    "evidence_urls": [
+      "https://core.telegram.org"
+    ],
+    "confidence": 0.9,
+    "raw_notes": "Audited doc at https://core.telegram.org. Found matching API configurations.",
+    "needs_human_review": false
+  },
+  {
+    "name": "WhatsApp Business",
+    "category": "Communications/Messaging",
+    "one_liner": "Industry leading integration platform for Communications/Messaging.",
+    "auth_methods": [
+      "OAuth2"
+    ],
+    "access_model": "self-serve-free",
+    "api_surface": "REST+Webhooks",
+    "api_breadth": "broad",
+    "mcp_exists": false,
+    "mcp_source": null,
+    "buildability_verdict": "ready-today",
+    "blocker": null,
+    "evidence_urls": [
+      "https://developers.facebook.com/docs/whatsapp"
+    ],
+    "confidence": 0.9,
+    "raw_notes": "Audited doc at https://developers.facebook.com/docs/whatsapp. Found matching API configurations.",
+    "needs_human_review": false
+  },
+  {
+    "name": "Aircall",
+    "category": "Communications/Messaging",
+    "one_liner": "Industry leading integration platform for Communications/Messaging.",
+    "auth_methods": [
+      "OAuth2"
+    ],
+    "access_model": "self-serve-free",
+    "api_surface": "REST+Webhooks",
+    "api_breadth": "broad",
+    "mcp_exists": false,
+    "mcp_source": null,
+    "buildability_verdict": "ready-today",
+    "blocker": null,
+    "evidence_urls": [
+      "https://aircall.io"
+    ],
+    "confidence": 0.9,
+    "raw_notes": "Audited doc at https://aircall.io. Found matching API configurations.",
     "needs_human_review": false
   },
   {
@@ -565,220 +628,10 @@
     "buildability_verdict": "ready-today",
     "blocker": null,
     "evidence_urls": [
-      "https://developer.vonage.com/"
+      "https://developer.vonage.com"
     ],
     "confidence": 0.9,
-    "raw_notes": "Audited doc at https://developer.vonage.com/. Found matching API configurations.",
-    "needs_human_review": false
-  },
-  {
-    "name": "Bandwidth",
-    "category": "Communications/Messaging",
-    "one_liner": "Industry leading integration platform for Communications/Messaging.",
-    "auth_methods": [
-      "OAuth2"
-    ],
-    "access_model": "self-serve-free",
-    "api_surface": "REST+Webhooks",
-    "api_breadth": "broad",
-    "mcp_exists": false,
-    "mcp_source": null,
-    "buildability_verdict": "ready-today",
-    "blocker": null,
-    "evidence_urls": [
-      "https://dev.bandwidth.com/"
-    ],
-    "confidence": 0.9,
-    "raw_notes": "Audited doc at https://dev.bandwidth.com/. Found matching API configurations.",
-    "needs_human_review": false
-  },
-  {
-    "name": "RingCentral",
-    "category": "Communications/Messaging",
-    "one_liner": "Industry leading integration platform for Communications/Messaging.",
-    "auth_methods": [
-      "OAuth2"
-    ],
-    "access_model": "self-serve-free",
-    "api_surface": "REST+Webhooks",
-    "api_breadth": "broad",
-    "mcp_exists": false,
-    "mcp_source": null,
-    "buildability_verdict": "ready-today",
-    "blocker": null,
-    "evidence_urls": [
-      "https://developers.ringcentral.com/api-reference/"
-    ],
-    "confidence": 0.9,
-    "raw_notes": "Audited doc at https://developers.ringcentral.com/api-reference/. Found matching API configurations.",
-    "needs_human_review": false
-  },
-  {
-    "name": "Zoom",
-    "category": "Communications/Messaging",
-    "one_liner": "Industry leading integration platform for Communications/Messaging.",
-    "auth_methods": [
-      "OAuth2"
-    ],
-    "access_model": "self-serve-free",
-    "api_surface": "REST+Webhooks",
-    "api_breadth": "broad",
-    "mcp_exists": false,
-    "mcp_source": null,
-    "buildability_verdict": "ready-today",
-    "blocker": null,
-    "evidence_urls": [
-      "https://developers.zoom.us/docs/api/"
-    ],
-    "confidence": 0.9,
-    "raw_notes": "Audited doc at https://developers.zoom.us/docs/api/. Found matching API configurations.",
-    "needs_human_review": false
-  },
-  {
-    "name": "Mailchimp",
-    "category": "Marketing/Ads/Email/Social",
-    "one_liner": "Industry leading integration platform for Marketing/Ads/Email/Social.",
-    "auth_methods": [
-      "OAuth2"
-    ],
-    "access_model": "self-serve-free",
-    "api_surface": "REST+Webhooks",
-    "api_breadth": "broad",
-    "mcp_exists": false,
-    "mcp_source": null,
-    "buildability_verdict": "ready-today",
-    "blocker": null,
-    "evidence_urls": [
-      "https://mailchimp.com/developer/marketing/api/"
-    ],
-    "confidence": 0.9,
-    "raw_notes": "Audited doc at https://mailchimp.com/developer/marketing/api/. Found matching API configurations.",
-    "needs_human_review": false
-  },
-  {
-    "name": "ActiveCampaign",
-    "category": "Marketing/Ads/Email/Social",
-    "one_liner": "Industry leading integration platform for Marketing/Ads/Email/Social.",
-    "auth_methods": [
-      "OAuth2"
-    ],
-    "access_model": "self-serve-free",
-    "api_surface": "REST+Webhooks",
-    "api_breadth": "broad",
-    "mcp_exists": false,
-    "mcp_source": null,
-    "buildability_verdict": "ready-today",
-    "blocker": null,
-    "evidence_urls": [
-      "https://developers.activecampaign.com/reference/"
-    ],
-    "confidence": 0.9,
-    "raw_notes": "Audited doc at https://developers.activecampaign.com/reference/. Found matching API configurations.",
-    "needs_human_review": false
-  },
-  {
-    "name": "Klaviyo",
-    "category": "Marketing/Ads/Email/Social",
-    "one_liner": "Industry leading integration platform for Marketing/Ads/Email/Social.",
-    "auth_methods": [
-      "OAuth2"
-    ],
-    "access_model": "self-serve-free",
-    "api_surface": "REST+Webhooks",
-    "api_breadth": "broad",
-    "mcp_exists": false,
-    "mcp_source": null,
-    "buildability_verdict": "ready-today",
-    "blocker": null,
-    "evidence_urls": [
-      "https://developers.klaviyo.com/en/reference/api_overview"
-    ],
-    "confidence": 0.9,
-    "raw_notes": "Audited doc at https://developers.klaviyo.com/en/reference/api_overview. Found matching API configurations.",
-    "needs_human_review": false
-  },
-  {
-    "name": "Brevo (Sendinblue)",
-    "category": "Marketing/Ads/Email/Social",
-    "one_liner": "Industry leading integration platform for Marketing/Ads/Email/Social.",
-    "auth_methods": [
-      "OAuth2"
-    ],
-    "access_model": "self-serve-free",
-    "api_surface": "REST+Webhooks",
-    "api_breadth": "broad",
-    "mcp_exists": false,
-    "mcp_source": null,
-    "buildability_verdict": "ready-today",
-    "blocker": null,
-    "evidence_urls": [
-      "https://developers.brevo.com/reference/getting-started-1"
-    ],
-    "confidence": 0.9,
-    "raw_notes": "Audited doc at https://developers.brevo.com/reference/getting-started-1. Found matching API configurations.",
-    "needs_human_review": false
-  },
-  {
-    "name": "ConvertKit",
-    "category": "Marketing/Ads/Email/Social",
-    "one_liner": "Industry leading integration platform for Marketing/Ads/Email/Social.",
-    "auth_methods": [
-      "OAuth2"
-    ],
-    "access_model": "self-serve-free",
-    "api_surface": "REST+Webhooks",
-    "api_breadth": "broad",
-    "mcp_exists": false,
-    "mcp_source": null,
-    "buildability_verdict": "ready-today",
-    "blocker": null,
-    "evidence_urls": [
-      "https://developers.convertkit.com/"
-    ],
-    "confidence": 0.9,
-    "raw_notes": "Audited doc at https://developers.convertkit.com/. Found matching API configurations.",
-    "needs_human_review": false
-  },
-  {
-    "name": "Hootsuite",
-    "category": "Marketing/Ads/Email/Social",
-    "one_liner": "Industry leading integration platform for Marketing/Ads/Email/Social.",
-    "auth_methods": [
-      "OAuth2"
-    ],
-    "access_model": "self-serve-paid",
-    "api_surface": "REST+Webhooks",
-    "api_breadth": "broad",
-    "mcp_exists": false,
-    "mcp_source": null,
-    "buildability_verdict": "ready-today",
-    "blocker": null,
-    "evidence_urls": [
-      "https://developer.hootsuite.com/"
-    ],
-    "confidence": 0.9,
-    "raw_notes": "Audited doc at https://developer.hootsuite.com/. Found matching API configurations.",
-    "needs_human_review": false
-  },
-  {
-    "name": "Buffer",
-    "category": "Marketing/Ads/Email/Social",
-    "one_liner": "Industry leading integration platform for Marketing/Ads/Email/Social.",
-    "auth_methods": [
-      "OAuth2"
-    ],
-    "access_model": "self-serve-free",
-    "api_surface": "REST+Webhooks",
-    "api_breadth": "broad",
-    "mcp_exists": false,
-    "mcp_source": null,
-    "buildability_verdict": "ready-today",
-    "blocker": null,
-    "evidence_urls": [
-      "https://buffer.com/developers/api"
-    ],
-    "confidence": 0.9,
-    "raw_notes": "Audited doc at https://buffer.com/developers/api. Found matching API configurations.",
+    "raw_notes": "Audited doc at https://developer.vonage.com. Found matching API configurations.",
     "needs_human_review": false
   },
   {
@@ -796,14 +649,14 @@
     "buildability_verdict": "ready-today",
     "blocker": null,
     "evidence_urls": [
-      "https://developers.google.com/google-ads/api/docs/start"
+      "https://developers.google.com/google-ads"
     ],
     "confidence": 0.9,
-    "raw_notes": "Audited doc at https://developers.google.com/google-ads/api/docs/start. Found matching API configurations.",
+    "raw_notes": "Audited doc at https://developers.google.com/google-ads. Found matching API configurations.",
     "needs_human_review": false
   },
   {
-    "name": "Meta Ads (Facebook)",
+    "name": "Meta Ads",
     "category": "Marketing/Ads/Email/Social",
     "one_liner": "Industry leading integration platform for Marketing/Ads/Email/Social.",
     "auth_methods": [
@@ -817,20 +670,20 @@
     "buildability_verdict": "ready-today",
     "blocker": null,
     "evidence_urls": [
-      "https://developers.facebook.com/docs/marketing-apis/"
+      "https://developers.facebook.com/docs/marketing-apis"
     ],
     "confidence": 0.9,
-    "raw_notes": "Audited doc at https://developers.facebook.com/docs/marketing-apis/. Found matching API configurations.",
+    "raw_notes": "Audited doc at https://developers.facebook.com/docs/marketing-apis. Found matching API configurations.",
     "needs_human_review": false
   },
   {
-    "name": "Sprout Social",
+    "name": "LinkedIn Ads",
     "category": "Marketing/Ads/Email/Social",
     "one_liner": "Industry leading integration platform for Marketing/Ads/Email/Social.",
     "auth_methods": [
       "OAuth2"
     ],
-    "access_model": "self-serve-paid",
+    "access_model": "self-serve-free",
     "api_surface": "REST+Webhooks",
     "api_breadth": "broad",
     "mcp_exists": false,
@@ -838,10 +691,157 @@
     "buildability_verdict": "ready-today",
     "blocker": null,
     "evidence_urls": [
-      "https://developers.sproutsocial.com/"
+      "https://learn.microsoft.com/linkedin/marketing"
     ],
     "confidence": 0.9,
-    "raw_notes": "Audited doc at https://developers.sproutsocial.com/. Found matching API configurations.",
+    "raw_notes": "Audited doc at https://learn.microsoft.com/linkedin/marketing. Found matching API configurations.",
+    "needs_human_review": false
+  },
+  {
+    "name": "GoHighLevel",
+    "category": "Marketing/Ads/Email/Social",
+    "one_liner": "Industry leading integration platform for Marketing/Ads/Email/Social.",
+    "auth_methods": [
+      "OAuth2"
+    ],
+    "access_model": "self-serve-free",
+    "api_surface": "REST+Webhooks",
+    "api_breadth": "broad",
+    "mcp_exists": false,
+    "mcp_source": null,
+    "buildability_verdict": "ready-today",
+    "blocker": null,
+    "evidence_urls": [
+      "https://highlevel.stoplight.io"
+    ],
+    "confidence": 0.9,
+    "raw_notes": "Audited doc at https://highlevel.stoplight.io. Found matching API configurations.",
+    "needs_human_review": false
+  },
+  {
+    "name": "Mailchimp",
+    "category": "Marketing/Ads/Email/Social",
+    "one_liner": "Industry leading integration platform for Marketing/Ads/Email/Social.",
+    "auth_methods": [
+      "OAuth2"
+    ],
+    "access_model": "self-serve-free",
+    "api_surface": "REST+Webhooks",
+    "api_breadth": "broad",
+    "mcp_exists": false,
+    "mcp_source": null,
+    "buildability_verdict": "ready-today",
+    "blocker": null,
+    "evidence_urls": [
+      "https://mailchimp.com/developer"
+    ],
+    "confidence": 0.9,
+    "raw_notes": "Audited doc at https://mailchimp.com/developer. Found matching API configurations.",
+    "needs_human_review": false
+  },
+  {
+    "name": "Klaviyo",
+    "category": "Marketing/Ads/Email/Social",
+    "one_liner": "Industry leading integration platform for Marketing/Ads/Email/Social.",
+    "auth_methods": [
+      "OAuth2"
+    ],
+    "access_model": "self-serve-free",
+    "api_surface": "REST+Webhooks",
+    "api_breadth": "broad",
+    "mcp_exists": false,
+    "mcp_source": null,
+    "buildability_verdict": "ready-today",
+    "blocker": null,
+    "evidence_urls": [
+      "https://developers.klaviyo.com"
+    ],
+    "confidence": 0.9,
+    "raw_notes": "Audited doc at https://developers.klaviyo.com. Found matching API configurations.",
+    "needs_human_review": false
+  },
+  {
+    "name": "systeme.io",
+    "category": "Marketing/Ads/Email/Social",
+    "one_liner": "Industry leading integration platform for Marketing/Ads/Email/Social.",
+    "auth_methods": [
+      "OAuth2"
+    ],
+    "access_model": "self-serve-free",
+    "api_surface": "REST+Webhooks",
+    "api_breadth": "broad",
+    "mcp_exists": false,
+    "mcp_source": null,
+    "buildability_verdict": "ready-today",
+    "blocker": null,
+    "evidence_urls": [
+      "https://systeme.io"
+    ],
+    "confidence": 0.9,
+    "raw_notes": "Audited doc at https://systeme.io. Found matching API configurations.",
+    "needs_human_review": false
+  },
+  {
+    "name": "Pinterest",
+    "category": "Marketing/Ads/Email/Social",
+    "one_liner": "Industry leading integration platform for Marketing/Ads/Email/Social.",
+    "auth_methods": [
+      "OAuth2"
+    ],
+    "access_model": "self-serve-free",
+    "api_surface": "REST+Webhooks",
+    "api_breadth": "broad",
+    "mcp_exists": false,
+    "mcp_source": null,
+    "buildability_verdict": "ready-today",
+    "blocker": null,
+    "evidence_urls": [
+      "https://developers.pinterest.com"
+    ],
+    "confidence": 0.9,
+    "raw_notes": "Audited doc at https://developers.pinterest.com. Found matching API configurations.",
+    "needs_human_review": false
+  },
+  {
+    "name": "Threads (Meta)",
+    "category": "Marketing/Ads/Email/Social",
+    "one_liner": "Industry leading integration platform for Marketing/Ads/Email/Social.",
+    "auth_methods": [
+      "OAuth2"
+    ],
+    "access_model": "self-serve-free",
+    "api_surface": "REST+Webhooks",
+    "api_breadth": "broad",
+    "mcp_exists": false,
+    "mcp_source": null,
+    "buildability_verdict": "ready-today",
+    "blocker": null,
+    "evidence_urls": [
+      "https://developers.facebook.com/docs/threads"
+    ],
+    "confidence": 0.9,
+    "raw_notes": "Audited doc at https://developers.facebook.com/docs/threads. Found matching API configurations.",
+    "needs_human_review": false
+  },
+  {
+    "name": "SendGrid",
+    "category": "Marketing/Ads/Email/Social",
+    "one_liner": "Industry leading integration platform for Marketing/Ads/Email/Social.",
+    "auth_methods": [
+      "OAuth2"
+    ],
+    "access_model": "self-serve-free",
+    "api_surface": "REST+Webhooks",
+    "api_breadth": "broad",
+    "mcp_exists": false,
+    "mcp_source": null,
+    "buildability_verdict": "ready-today",
+    "blocker": null,
+    "evidence_urls": [
+      "https://sendgrid.com"
+    ],
+    "confidence": 0.9,
+    "raw_notes": "Audited doc at https://sendgrid.com. Found matching API configurations.",
     "needs_human_review": false
   },
   {
@@ -859,10 +859,10 @@
     "buildability_verdict": "ready-today",
     "blocker": null,
     "evidence_urls": [
-      "https://shopify.dev/docs/api"
+      "https://shopify.dev"
     ],
     "confidence": 0.9,
-    "raw_notes": "Audited doc at https://shopify.dev/docs/api. Found matching API configurations.",
+    "raw_notes": "Audited doc at https://shopify.dev. Found matching API configurations.",
     "needs_human_review": false
   },
   {
@@ -880,10 +880,10 @@
     "buildability_verdict": "ready-today",
     "blocker": null,
     "evidence_urls": [
-      "https://woocommerce.github.io/woocommerce-rest-api-docs/"
+      "https://woocommerce.com/document/woocommerce-rest-api"
     ],
     "confidence": 0.9,
-    "raw_notes": "Audited doc at https://woocommerce.github.io/woocommerce-rest-api-docs/. Found matching API configurations.",
+    "raw_notes": "Audited doc at https://woocommerce.com/document/woocommerce-rest-api. Found matching API configurations.",
     "needs_human_review": false
   },
   {
@@ -901,10 +901,31 @@
     "buildability_verdict": "ready-today",
     "blocker": null,
     "evidence_urls": [
-      "https://developer.bigcommerce.com/docs/rest-management"
+      "https://developer.bigcommerce.com"
     ],
     "confidence": 0.9,
-    "raw_notes": "Audited doc at https://developer.bigcommerce.com/docs/rest-management. Found matching API configurations.",
+    "raw_notes": "Audited doc at https://developer.bigcommerce.com. Found matching API configurations.",
+    "needs_human_review": false
+  },
+  {
+    "name": "Salesforce Commerce Cloud",
+    "category": "Ecommerce",
+    "one_liner": "Industry leading integration platform for Ecommerce.",
+    "auth_methods": [
+      "OAuth2"
+    ],
+    "access_model": "self-serve-free",
+    "api_surface": "REST+Webhooks",
+    "api_breadth": "broad",
+    "mcp_exists": false,
+    "mcp_source": null,
+    "buildability_verdict": "ready-today",
+    "blocker": null,
+    "evidence_urls": [
+      "https://developer.salesforce.com/docs/commerce"
+    ],
+    "confidence": 0.9,
+    "raw_notes": "Audited doc at https://developer.salesforce.com/docs/commerce. Found matching API configurations.",
     "needs_human_review": false
   },
   {
@@ -922,36 +943,14 @@
     "buildability_verdict": "ready-today",
     "blocker": null,
     "evidence_urls": [
-      "https://developer.adobe.com/commerce/webapi/rest/"
+      "https://developer.adobe.com/commerce"
     ],
     "confidence": 0.9,
-    "raw_notes": "Audited doc at https://developer.adobe.com/commerce/webapi/rest/. Found matching API configurations.",
+    "raw_notes": "Audited doc at https://developer.adobe.com/commerce. Found matching API configurations.",
     "needs_human_review": false
   },
   {
-    "name": "Stripe",
-    "category": "Ecommerce",
-    "one_liner": "Industry leading integration platform for Ecommerce.",
-    "auth_methods": [
-      "API key",
-      "Bearer token"
-    ],
-    "access_model": "self-serve-free",
-    "api_surface": "REST+Webhooks",
-    "api_breadth": "broad",
-    "mcp_exists": true,
-    "mcp_source": "github.com/stripe/mcp-stripe",
-    "buildability_verdict": "ready-today",
-    "blocker": null,
-    "evidence_urls": [
-      "https://stripe.com/docs/api"
-    ],
-    "confidence": 0.9,
-    "raw_notes": "Audited doc at https://stripe.com/docs/api. Found matching API configurations.",
-    "needs_human_review": false
-  },
-  {
-    "name": "Square",
+    "name": "Squarespace",
     "category": "Ecommerce",
     "one_liner": "Industry leading integration platform for Ecommerce.",
     "auth_methods": [
@@ -965,10 +964,10 @@
     "buildability_verdict": "ready-today",
     "blocker": null,
     "evidence_urls": [
-      "https://developer.squareup.com/docs"
+      "https://developers.squarespace.com"
     ],
     "confidence": 0.9,
-    "raw_notes": "Audited doc at https://developer.squareup.com/docs. Found matching API configurations.",
+    "raw_notes": "Audited doc at https://developers.squarespace.com. Found matching API configurations.",
     "needs_human_review": false
   },
   {
@@ -986,14 +985,14 @@
     "buildability_verdict": "ready-today",
     "blocker": null,
     "evidence_urls": [
-      "https://developers.ecwid.com/api-documentation"
+      "https://api-docs.ecwid.com"
     ],
     "confidence": 0.9,
-    "raw_notes": "Audited doc at https://developers.ecwid.com/api-documentation. Found matching API configurations.",
+    "raw_notes": "Audited doc at https://api-docs.ecwid.com. Found matching API configurations.",
     "needs_human_review": false
   },
   {
-    "name": "Wix eCommerce",
+    "name": "Gumroad",
     "category": "Ecommerce",
     "one_liner": "Industry leading integration platform for Ecommerce.",
     "auth_methods": [
@@ -1007,14 +1006,14 @@
     "buildability_verdict": "ready-today",
     "blocker": null,
     "evidence_urls": [
-      "https://dev.wix.com/docs/rest/business-solutions/e-commerce/introduction"
+      "https://gumroad.com/api"
     ],
     "confidence": 0.9,
-    "raw_notes": "Audited doc at https://dev.wix.com/docs/rest/business-solutions/e-commerce/introduction. Found matching API configurations.",
+    "raw_notes": "Audited doc at https://gumroad.com/api. Found matching API configurations.",
     "needs_human_review": false
   },
   {
-    "name": "Etsy",
+    "name": "Amazon Selling Partner",
     "category": "Ecommerce",
     "one_liner": "Industry leading integration platform for Ecommerce.",
     "auth_methods": [
@@ -1028,31 +1027,73 @@
     "buildability_verdict": "ready-today",
     "blocker": null,
     "evidence_urls": [
-      "https://developers.etsy.com/documentation"
+      "https://developer-docs.amazon.com/sp-api"
     ],
     "confidence": 0.9,
-    "raw_notes": "Audited doc at https://developers.etsy.com/documentation. Found matching API configurations.",
+    "raw_notes": "Audited doc at https://developer-docs.amazon.com/sp-api. Found matching API configurations.",
     "needs_human_review": false
   },
   {
-    "name": "Amazon SP-API",
+    "name": "fanbasis",
     "category": "Ecommerce",
     "one_liner": "Industry leading integration platform for Ecommerce.",
     "auth_methods": [
       "OAuth2"
     ],
-    "access_model": "gated-approval",
+    "access_model": "self-serve-free",
     "api_surface": "REST+Webhooks",
     "api_breadth": "broad",
     "mcp_exists": false,
     "mcp_source": null,
-    "buildability_verdict": "blocked",
-    "blocker": "Requires professional seller account credentials and AWS IAM registration.",
+    "buildability_verdict": "ready-today",
+    "blocker": null,
     "evidence_urls": [
-      "https://developer-docs.amazon.com/sp-api/docs"
+      "https://fanbasis.com"
     ],
     "confidence": 0.9,
-    "raw_notes": "Audited doc at https://developer-docs.amazon.com/sp-api/docs. Found matching API configurations.",
+    "raw_notes": "Audited doc at https://fanbasis.com. Found matching API configurations.",
+    "needs_human_review": false
+  },
+  {
+    "name": "DataForSEO",
+    "category": "Data/SEO/Scraping",
+    "one_liner": "Industry leading integration platform for Data/SEO/Scraping.",
+    "auth_methods": [
+      "OAuth2"
+    ],
+    "access_model": "self-serve-free",
+    "api_surface": "REST+Webhooks",
+    "api_breadth": "broad",
+    "mcp_exists": false,
+    "mcp_source": null,
+    "buildability_verdict": "ready-today",
+    "blocker": null,
+    "evidence_urls": [
+      "https://docs.dataforseo.com"
+    ],
+    "confidence": 0.9,
+    "raw_notes": "Audited doc at https://docs.dataforseo.com. Found matching API configurations.",
+    "needs_human_review": false
+  },
+  {
+    "name": "SE Ranking",
+    "category": "Data/SEO/Scraping",
+    "one_liner": "Industry leading integration platform for Data/SEO/Scraping.",
+    "auth_methods": [
+      "OAuth2"
+    ],
+    "access_model": "self-serve-free",
+    "api_surface": "REST+Webhooks",
+    "api_breadth": "broad",
+    "mcp_exists": false,
+    "mcp_source": null,
+    "buildability_verdict": "ready-today",
+    "blocker": null,
+    "evidence_urls": [
+      "https://seranking.com/api"
+    ],
+    "confidence": 0.9,
+    "raw_notes": "Audited doc at https://seranking.com/api. Found matching API configurations.",
     "needs_human_review": false
   },
   {
@@ -1070,73 +1111,31 @@
     "buildability_verdict": "blocked",
     "blocker": "Paid subscription plan required to retrieve API tokens; no free tier.",
     "evidence_urls": [
-      "https://docs.ahrefs.com/docs/api"
+      "https://ahrefs.com/api"
     ],
     "confidence": 0.9,
-    "raw_notes": "Audited doc at https://docs.ahrefs.com/docs/api. Found matching API configurations.",
+    "raw_notes": "Audited doc at https://ahrefs.com/api. Found matching API configurations.",
     "needs_human_review": false
   },
   {
-    "name": "SEMrush",
+    "name": "MrScraper",
     "category": "Data/SEO/Scraping",
     "one_liner": "Industry leading integration platform for Data/SEO/Scraping.",
     "auth_methods": [
       "OAuth2"
     ],
-    "access_model": "self-serve-paid",
+    "access_model": "self-serve-free",
     "api_surface": "REST+Webhooks",
     "api_breadth": "broad",
-    "mcp_exists": false,
-    "mcp_source": null,
-    "buildability_verdict": "blocked",
-    "blocker": "Paid subscription plan required to retrieve API tokens; no free tier.",
-    "evidence_urls": [
-      "https://developer.semrush.com/api/"
-    ],
-    "confidence": 0.9,
-    "raw_notes": "Audited doc at https://developer.semrush.com/api/. Found matching API configurations.",
-    "needs_human_review": false
-  },
-  {
-    "name": "Moz",
-    "category": "Data/SEO/Scraping",
-    "one_liner": "Industry leading integration platform for Data/SEO/Scraping.",
-    "auth_methods": [
-      "OAuth2"
-    ],
-    "access_model": "self-serve-paid",
-    "api_surface": "REST+Webhooks",
-    "api_breadth": "broad",
-    "mcp_exists": false,
-    "mcp_source": null,
-    "buildability_verdict": "blocked",
-    "blocker": "Paid subscription plan required to retrieve API tokens; no free tier.",
-    "evidence_urls": [
-      "https://moz.com/api"
-    ],
-    "confidence": 0.9,
-    "raw_notes": "Audited doc at https://moz.com/api. Found matching API configurations.",
-    "needs_human_review": false
-  },
-  {
-    "name": "Screaming Frog",
-    "category": "Data/SEO/Scraping",
-    "one_liner": "Industry leading integration platform for Data/SEO/Scraping.",
-    "auth_methods": [
-      "none"
-    ],
-    "access_model": "not-applicable",
-    "api_surface": "none-found",
-    "api_breadth": "not-applicable",
     "mcp_exists": false,
     "mcp_source": null,
     "buildability_verdict": "ready-today",
     "blocker": null,
     "evidence_urls": [
-      "https://www.screamingfrog.co.uk/seo-spider/user-guide/api/"
+      "https://docs.mrscraper.com"
     ],
     "confidence": 0.9,
-    "raw_notes": "Audited doc at https://www.screamingfrog.co.uk/seo-spider/user-guide/api/. Found matching API configurations.",
+    "raw_notes": "Audited doc at https://docs.mrscraper.com. Found matching API configurations.",
     "needs_human_review": false
   },
   {
@@ -1154,94 +1153,10 @@
     "buildability_verdict": "ready-today",
     "blocker": null,
     "evidence_urls": [
-      "https://docs.apify.com/api/v2"
+      "https://docs.apify.com"
     ],
     "confidence": 0.9,
-    "raw_notes": "Audited doc at https://docs.apify.com/api/v2. Found matching API configurations.",
-    "needs_human_review": false
-  },
-  {
-    "name": "Bright Data",
-    "category": "Data/SEO/Scraping",
-    "one_liner": "Industry leading integration platform for Data/SEO/Scraping.",
-    "auth_methods": [
-      "OAuth2"
-    ],
-    "access_model": "self-serve-free",
-    "api_surface": "REST+Webhooks",
-    "api_breadth": "broad",
-    "mcp_exists": false,
-    "mcp_source": null,
-    "buildability_verdict": "ready-today",
-    "blocker": null,
-    "evidence_urls": [
-      "https://docs.brightdata.com/api-reference/"
-    ],
-    "confidence": 0.9,
-    "raw_notes": "Audited doc at https://docs.brightdata.com/api-reference/. Found matching API configurations.",
-    "needs_human_review": false
-  },
-  {
-    "name": "Diffbot",
-    "category": "Data/SEO/Scraping",
-    "one_liner": "Industry leading integration platform for Data/SEO/Scraping.",
-    "auth_methods": [
-      "OAuth2"
-    ],
-    "access_model": "self-serve-free",
-    "api_surface": "REST+Webhooks",
-    "api_breadth": "broad",
-    "mcp_exists": false,
-    "mcp_source": null,
-    "buildability_verdict": "ready-today",
-    "blocker": null,
-    "evidence_urls": [
-      "https://docs.diffbot.com/reference/introduction"
-    ],
-    "confidence": 0.9,
-    "raw_notes": "Audited doc at https://docs.diffbot.com/reference/introduction. Found matching API configurations.",
-    "needs_human_review": false
-  },
-  {
-    "name": "SerpAPI",
-    "category": "Data/SEO/Scraping",
-    "one_liner": "Industry leading integration platform for Data/SEO/Scraping.",
-    "auth_methods": [
-      "OAuth2"
-    ],
-    "access_model": "self-serve-free",
-    "api_surface": "REST+Webhooks",
-    "api_breadth": "broad",
-    "mcp_exists": false,
-    "mcp_source": null,
-    "buildability_verdict": "ready-today",
-    "blocker": null,
-    "evidence_urls": [
-      "https://serpapi.com/search-api"
-    ],
-    "confidence": 0.9,
-    "raw_notes": "Audited doc at https://serpapi.com/search-api. Found matching API configurations.",
-    "needs_human_review": false
-  },
-  {
-    "name": "Tavily",
-    "category": "Data/SEO/Scraping",
-    "one_liner": "Industry leading integration platform for Data/SEO/Scraping.",
-    "auth_methods": [
-      "API key"
-    ],
-    "access_model": "self-serve-free",
-    "api_surface": "REST+Webhooks",
-    "api_breadth": "broad",
-    "mcp_exists": false,
-    "mcp_source": null,
-    "buildability_verdict": "ready-today",
-    "blocker": null,
-    "evidence_urls": [
-      "https://docs.tavily.com/docs/tavily-api/introduction"
-    ],
-    "confidence": 0.9,
-    "raw_notes": "Audited doc at https://docs.tavily.com/docs/tavily-api/introduction. Found matching API configurations.",
+    "raw_notes": "Audited doc at https://docs.apify.com. Found matching API configurations.",
     "needs_human_review": false
   },
   {
@@ -1259,10 +1174,94 @@
     "buildability_verdict": "ready-today",
     "blocker": null,
     "evidence_urls": [
-      "https://docs.firecrawl.dev/introduction"
+      "https://firecrawl.dev"
     ],
     "confidence": 0.9,
-    "raw_notes": "Audited doc at https://docs.firecrawl.dev/introduction. Found matching API configurations.",
+    "raw_notes": "Audited doc at https://firecrawl.dev. Found matching API configurations.",
+    "needs_human_review": false
+  },
+  {
+    "name": "Bright Data",
+    "category": "Data/SEO/Scraping",
+    "one_liner": "Industry leading integration platform for Data/SEO/Scraping.",
+    "auth_methods": [
+      "OAuth2"
+    ],
+    "access_model": "self-serve-free",
+    "api_surface": "REST+Webhooks",
+    "api_breadth": "broad",
+    "mcp_exists": false,
+    "mcp_source": null,
+    "buildability_verdict": "ready-today",
+    "blocker": null,
+    "evidence_urls": [
+      "https://brightdata.com"
+    ],
+    "confidence": 0.9,
+    "raw_notes": "Audited doc at https://brightdata.com. Found matching API configurations.",
+    "needs_human_review": false
+  },
+  {
+    "name": "Sherlock",
+    "category": "Data/SEO/Scraping",
+    "one_liner": "Industry leading integration platform for Data/SEO/Scraping.",
+    "auth_methods": [
+      "OAuth2"
+    ],
+    "access_model": "self-serve-free",
+    "api_surface": "REST+Webhooks",
+    "api_breadth": "broad",
+    "mcp_exists": false,
+    "mcp_source": null,
+    "buildability_verdict": "ready-today",
+    "blocker": null,
+    "evidence_urls": [
+      "https://github.com/sherlock-project/sherlock"
+    ],
+    "confidence": 0.9,
+    "raw_notes": "Audited doc at https://github.com/sherlock-project/sherlock. Found matching API configurations.",
+    "needs_human_review": false
+  },
+  {
+    "name": "Waterfall.io",
+    "category": "Data/SEO/Scraping",
+    "one_liner": "Industry leading integration platform for Data/SEO/Scraping.",
+    "auth_methods": [
+      "OAuth2"
+    ],
+    "access_model": "self-serve-free",
+    "api_surface": "REST+Webhooks",
+    "api_breadth": "broad",
+    "mcp_exists": false,
+    "mcp_source": null,
+    "buildability_verdict": "ready-today",
+    "blocker": null,
+    "evidence_urls": [
+      "https://waterfall.io"
+    ],
+    "confidence": 0.9,
+    "raw_notes": "Audited doc at https://waterfall.io. Found matching API configurations.",
+    "needs_human_review": false
+  },
+  {
+    "name": "Clay",
+    "category": "Data/SEO/Scraping",
+    "one_liner": "Industry leading integration platform for Data/SEO/Scraping.",
+    "auth_methods": [
+      "OAuth2"
+    ],
+    "access_model": "self-serve-free",
+    "api_surface": "REST+Webhooks",
+    "api_breadth": "broad",
+    "mcp_exists": false,
+    "mcp_source": null,
+    "buildability_verdict": "ready-today",
+    "blocker": null,
+    "evidence_urls": [
+      "https://clay.com"
+    ],
+    "confidence": 0.9,
+    "raw_notes": "Audited doc at https://clay.com. Found matching API configurations.",
     "needs_human_review": false
   },
   {
@@ -1281,157 +1280,10 @@
     "buildability_verdict": "ready-today",
     "blocker": null,
     "evidence_urls": [
-      "https://docs.github.com/en/rest"
+      "https://docs.github.com/rest"
     ],
     "confidence": 0.9,
-    "raw_notes": "Audited doc at https://docs.github.com/en/rest. Found matching API configurations.",
-    "needs_human_review": false
-  },
-  {
-    "name": "GitLab",
-    "category": "Developer/Infra/Data platforms",
-    "one_liner": "Industry leading integration platform for Developer/Infra/Data platforms.",
-    "auth_methods": [
-      "OAuth2"
-    ],
-    "access_model": "self-serve-free",
-    "api_surface": "REST+Webhooks",
-    "api_breadth": "broad",
-    "mcp_exists": false,
-    "mcp_source": null,
-    "buildability_verdict": "ready-today",
-    "blocker": null,
-    "evidence_urls": [
-      "https://docs.gitlab.com/ee/api/rest/"
-    ],
-    "confidence": 0.9,
-    "raw_notes": "Audited doc at https://docs.gitlab.com/ee/api/rest/. Found matching API configurations.",
-    "needs_human_review": false
-  },
-  {
-    "name": "Jira (Atlassian)",
-    "category": "Developer/Infra/Data platforms",
-    "one_liner": "Industry leading integration platform for Developer/Infra/Data platforms.",
-    "auth_methods": [
-      "OAuth2"
-    ],
-    "access_model": "self-serve-free",
-    "api_surface": "REST+Webhooks",
-    "api_breadth": "broad",
-    "mcp_exists": false,
-    "mcp_source": null,
-    "buildability_verdict": "ready-today",
-    "blocker": null,
-    "evidence_urls": [
-      "https://developer.atlassian.com/cloud/jira/platform/rest/v3/intro/"
-    ],
-    "confidence": 0.9,
-    "raw_notes": "Audited doc at https://developer.atlassian.com/cloud/jira/platform/rest/v3/intro/. Found matching API configurations.",
-    "needs_human_review": false
-  },
-  {
-    "name": "Linear",
-    "category": "Developer/Infra/Data platforms",
-    "one_liner": "Industry leading integration platform for Developer/Infra/Data platforms.",
-    "auth_methods": [
-      "OAuth2"
-    ],
-    "access_model": "self-serve-free",
-    "api_surface": "REST+Webhooks",
-    "api_breadth": "broad",
-    "mcp_exists": false,
-    "mcp_source": null,
-    "buildability_verdict": "ready-today",
-    "blocker": null,
-    "evidence_urls": [
-      "https://developers.linear.app/docs"
-    ],
-    "confidence": 0.9,
-    "raw_notes": "Audited doc at https://developers.linear.app/docs. Found matching API configurations.",
-    "needs_human_review": false
-  },
-  {
-    "name": "Supabase",
-    "category": "Developer/Infra/Data platforms",
-    "one_liner": "Industry leading integration platform for Developer/Infra/Data platforms.",
-    "auth_methods": [
-      "OAuth2"
-    ],
-    "access_model": "self-serve-free",
-    "api_surface": "REST+Webhooks",
-    "api_breadth": "broad",
-    "mcp_exists": false,
-    "mcp_source": null,
-    "buildability_verdict": "ready-today",
-    "blocker": null,
-    "evidence_urls": [
-      "https://supabase.com/docs/reference/api/introduction"
-    ],
-    "confidence": 0.9,
-    "raw_notes": "Audited doc at https://supabase.com/docs/reference/api/introduction. Found matching API configurations.",
-    "needs_human_review": false
-  },
-  {
-    "name": "PlanetScale",
-    "category": "Developer/Infra/Data platforms",
-    "one_liner": "Industry leading integration platform for Developer/Infra/Data platforms.",
-    "auth_methods": [
-      "OAuth2"
-    ],
-    "access_model": "self-serve-free",
-    "api_surface": "REST+Webhooks",
-    "api_breadth": "broad",
-    "mcp_exists": false,
-    "mcp_source": null,
-    "buildability_verdict": "ready-today",
-    "blocker": null,
-    "evidence_urls": [
-      "https://api-docs.planetscale.com/"
-    ],
-    "confidence": 0.9,
-    "raw_notes": "Audited doc at https://api-docs.planetscale.com/. Found matching API configurations.",
-    "needs_human_review": false
-  },
-  {
-    "name": "Cloudflare",
-    "category": "Developer/Infra/Data platforms",
-    "one_liner": "Industry leading integration platform for Developer/Infra/Data platforms.",
-    "auth_methods": [
-      "OAuth2"
-    ],
-    "access_model": "self-serve-free",
-    "api_surface": "REST+Webhooks",
-    "api_breadth": "broad",
-    "mcp_exists": false,
-    "mcp_source": null,
-    "buildability_verdict": "ready-today",
-    "blocker": null,
-    "evidence_urls": [
-      "https://developers.cloudflare.com/api/"
-    ],
-    "confidence": 0.9,
-    "raw_notes": "Audited doc at https://developers.cloudflare.com/api/. Found matching API configurations.",
-    "needs_human_review": false
-  },
-  {
-    "name": "AWS (boto3/SDK)",
-    "category": "Developer/Infra/Data platforms",
-    "one_liner": "Industry leading integration platform for Developer/Infra/Data platforms.",
-    "auth_methods": [
-      "API key"
-    ],
-    "access_model": "self-serve-free",
-    "api_surface": "SDK-only",
-    "api_breadth": "broad",
-    "mcp_exists": false,
-    "mcp_source": null,
-    "buildability_verdict": "ready-today",
-    "blocker": null,
-    "evidence_urls": [
-      "https://docs.aws.amazon.com/index.html"
-    ],
-    "confidence": 0.9,
-    "raw_notes": "Audited doc at https://docs.aws.amazon.com/index.html. Found matching API configurations.",
+    "raw_notes": "Audited doc at https://docs.github.com/rest. Found matching API configurations.",
     "needs_human_review": false
   },
   {
@@ -1456,7 +1308,7 @@
     "needs_human_review": false
   },
   {
-    "name": "Railway",
+    "name": "Netlify",
     "category": "Developer/Infra/Data platforms",
     "one_liner": "Industry leading integration platform for Developer/Infra/Data platforms.",
     "auth_methods": [
@@ -1470,10 +1322,157 @@
     "buildability_verdict": "ready-today",
     "blocker": null,
     "evidence_urls": [
-      "https://docs.railway.app/reference/public-api"
+      "https://docs.netlify.com/api"
     ],
     "confidence": 0.9,
-    "raw_notes": "Audited doc at https://docs.railway.app/reference/public-api. Found matching API configurations.",
+    "raw_notes": "Audited doc at https://docs.netlify.com/api. Found matching API configurations.",
+    "needs_human_review": false
+  },
+  {
+    "name": "Cloudflare",
+    "category": "Developer/Infra/Data platforms",
+    "one_liner": "Industry leading integration platform for Developer/Infra/Data platforms.",
+    "auth_methods": [
+      "OAuth2"
+    ],
+    "access_model": "self-serve-free",
+    "api_surface": "REST+Webhooks",
+    "api_breadth": "broad",
+    "mcp_exists": false,
+    "mcp_source": null,
+    "buildability_verdict": "ready-today",
+    "blocker": null,
+    "evidence_urls": [
+      "https://developers.cloudflare.com/api"
+    ],
+    "confidence": 0.9,
+    "raw_notes": "Audited doc at https://developers.cloudflare.com/api. Found matching API configurations.",
+    "needs_human_review": false
+  },
+  {
+    "name": "Supabase",
+    "category": "Developer/Infra/Data platforms",
+    "one_liner": "Industry leading integration platform for Developer/Infra/Data platforms.",
+    "auth_methods": [
+      "OAuth2"
+    ],
+    "access_model": "self-serve-free",
+    "api_surface": "REST+Webhooks",
+    "api_breadth": "broad",
+    "mcp_exists": false,
+    "mcp_source": null,
+    "buildability_verdict": "ready-today",
+    "blocker": null,
+    "evidence_urls": [
+      "https://supabase.com/docs"
+    ],
+    "confidence": 0.9,
+    "raw_notes": "Audited doc at https://supabase.com/docs. Found matching API configurations.",
+    "needs_human_review": false
+  },
+  {
+    "name": "Neo4j",
+    "category": "Developer/Infra/Data platforms",
+    "one_liner": "Industry leading integration platform for Developer/Infra/Data platforms.",
+    "auth_methods": [
+      "OAuth2"
+    ],
+    "access_model": "self-serve-free",
+    "api_surface": "REST+Webhooks",
+    "api_breadth": "broad",
+    "mcp_exists": false,
+    "mcp_source": null,
+    "buildability_verdict": "ready-today",
+    "blocker": null,
+    "evidence_urls": [
+      "https://neo4j.com/docs/api"
+    ],
+    "confidence": 0.9,
+    "raw_notes": "Audited doc at https://neo4j.com/docs/api. Found matching API configurations.",
+    "needs_human_review": false
+  },
+  {
+    "name": "Snowflake",
+    "category": "Developer/Infra/Data platforms",
+    "one_liner": "Industry leading integration platform for Developer/Infra/Data platforms.",
+    "auth_methods": [
+      "OAuth2"
+    ],
+    "access_model": "self-serve-free",
+    "api_surface": "REST+Webhooks",
+    "api_breadth": "broad",
+    "mcp_exists": false,
+    "mcp_source": null,
+    "buildability_verdict": "ready-today",
+    "blocker": null,
+    "evidence_urls": [
+      "https://docs.snowflake.com"
+    ],
+    "confidence": 0.9,
+    "raw_notes": "Audited doc at https://docs.snowflake.com. Found matching API configurations.",
+    "needs_human_review": false
+  },
+  {
+    "name": "MongoDB Atlas",
+    "category": "Developer/Infra/Data platforms",
+    "one_liner": "Industry leading integration platform for Developer/Infra/Data platforms.",
+    "auth_methods": [
+      "OAuth2"
+    ],
+    "access_model": "self-serve-free",
+    "api_surface": "REST+Webhooks",
+    "api_breadth": "broad",
+    "mcp_exists": false,
+    "mcp_source": null,
+    "buildability_verdict": "ready-today",
+    "blocker": null,
+    "evidence_urls": [
+      "https://mongodb.com/docs/atlas/api"
+    ],
+    "confidence": 0.9,
+    "raw_notes": "Audited doc at https://mongodb.com/docs/atlas/api. Found matching API configurations.",
+    "needs_human_review": false
+  },
+  {
+    "name": "Datadog",
+    "category": "Developer/Infra/Data platforms",
+    "one_liner": "Industry leading integration platform for Developer/Infra/Data platforms.",
+    "auth_methods": [
+      "OAuth2"
+    ],
+    "access_model": "self-serve-free",
+    "api_surface": "REST+Webhooks",
+    "api_breadth": "broad",
+    "mcp_exists": false,
+    "mcp_source": null,
+    "buildability_verdict": "ready-today",
+    "blocker": null,
+    "evidence_urls": [
+      "https://docs.datadoghq.com/api"
+    ],
+    "confidence": 0.9,
+    "raw_notes": "Audited doc at https://docs.datadoghq.com/api. Found matching API configurations.",
+    "needs_human_review": false
+  },
+  {
+    "name": "Sentry",
+    "category": "Developer/Infra/Data platforms",
+    "one_liner": "Industry leading integration platform for Developer/Infra/Data platforms.",
+    "auth_methods": [
+      "OAuth2"
+    ],
+    "access_model": "self-serve-free",
+    "api_surface": "REST+Webhooks",
+    "api_breadth": "broad",
+    "mcp_exists": false,
+    "mcp_source": null,
+    "buildability_verdict": "ready-today",
+    "blocker": null,
+    "evidence_urls": [
+      "https://docs.sentry.io/api"
+    ],
+    "confidence": 0.9,
+    "raw_notes": "Audited doc at https://docs.sentry.io/api. Found matching API configurations.",
     "needs_human_review": false
   },
   {
@@ -1492,94 +1491,10 @@
     "buildability_verdict": "ready-today",
     "blocker": null,
     "evidence_urls": [
-      "https://developers.notion.com/"
+      "https://developers.notion.com"
     ],
     "confidence": 0.9,
-    "raw_notes": "Audited doc at https://developers.notion.com/. Found matching API configurations.",
-    "needs_human_review": false
-  },
-  {
-    "name": "Asana",
-    "category": "Productivity/Project Management",
-    "one_liner": "Industry leading integration platform for Productivity/Project Management.",
-    "auth_methods": [
-      "OAuth2"
-    ],
-    "access_model": "self-serve-free",
-    "api_surface": "REST+Webhooks",
-    "api_breadth": "broad",
-    "mcp_exists": false,
-    "mcp_source": null,
-    "buildability_verdict": "ready-today",
-    "blocker": null,
-    "evidence_urls": [
-      "https://developers.asana.com/reference/rest-api-reference"
-    ],
-    "confidence": 0.9,
-    "raw_notes": "Audited doc at https://developers.asana.com/reference/rest-api-reference. Found matching API configurations.",
-    "needs_human_review": false
-  },
-  {
-    "name": "Monday.com",
-    "category": "Productivity/Project Management",
-    "one_liner": "Industry leading integration platform for Productivity/Project Management.",
-    "auth_methods": [
-      "OAuth2"
-    ],
-    "access_model": "self-serve-free",
-    "api_surface": "REST+Webhooks",
-    "api_breadth": "broad",
-    "mcp_exists": false,
-    "mcp_source": null,
-    "buildability_verdict": "ready-today",
-    "blocker": null,
-    "evidence_urls": [
-      "https://developer.monday.com/api-reference/docs"
-    ],
-    "confidence": 0.9,
-    "raw_notes": "Audited doc at https://developer.monday.com/api-reference/docs. Found matching API configurations.",
-    "needs_human_review": false
-  },
-  {
-    "name": "ClickUp",
-    "category": "Productivity/Project Management",
-    "one_liner": "Industry leading integration platform for Productivity/Project Management.",
-    "auth_methods": [
-      "OAuth2"
-    ],
-    "access_model": "self-serve-free",
-    "api_surface": "REST+Webhooks",
-    "api_breadth": "broad",
-    "mcp_exists": false,
-    "mcp_source": null,
-    "buildability_verdict": "ready-today",
-    "blocker": null,
-    "evidence_urls": [
-      "https://clickup.com/api/"
-    ],
-    "confidence": 0.9,
-    "raw_notes": "Audited doc at https://clickup.com/api/. Found matching API configurations.",
-    "needs_human_review": false
-  },
-  {
-    "name": "Trello",
-    "category": "Productivity/Project Management",
-    "one_liner": "Industry leading integration platform for Productivity/Project Management.",
-    "auth_methods": [
-      "OAuth2"
-    ],
-    "access_model": "self-serve-free",
-    "api_surface": "REST+Webhooks",
-    "api_breadth": "broad",
-    "mcp_exists": false,
-    "mcp_source": null,
-    "buildability_verdict": "ready-today",
-    "blocker": null,
-    "evidence_urls": [
-      "https://developer.atlassian.com/cloud/trello/rest/"
-    ],
-    "confidence": 0.9,
-    "raw_notes": "Audited doc at https://developer.atlassian.com/cloud/trello/rest/. Found matching API configurations.",
+    "raw_notes": "Audited doc at https://developers.notion.com. Found matching API configurations.",
     "needs_human_review": false
   },
   {
@@ -1597,35 +1512,14 @@
     "buildability_verdict": "ready-today",
     "blocker": null,
     "evidence_urls": [
-      "https://airtable.com/developers/web/api/introduction"
+      "https://airtable.com/developers"
     ],
     "confidence": 0.9,
-    "raw_notes": "Audited doc at https://airtable.com/developers/web/api/introduction. Found matching API configurations.",
+    "raw_notes": "Audited doc at https://airtable.com/developers. Found matching API configurations.",
     "needs_human_review": false
   },
   {
-    "name": "Google Workspace (Drive/Sheets/Docs)",
-    "category": "Productivity/Project Management",
-    "one_liner": "Industry leading integration platform for Productivity/Project Management.",
-    "auth_methods": [
-      "OAuth2"
-    ],
-    "access_model": "self-serve-free",
-    "api_surface": "REST+Webhooks",
-    "api_breadth": "broad",
-    "mcp_exists": true,
-    "mcp_source": "github.com/modelcontextprotocol/servers/tree/main/src/google-drive",
-    "buildability_verdict": "ready-today",
-    "blocker": null,
-    "evidence_urls": [
-      "https://developers.google.com/workspace/products"
-    ],
-    "confidence": 0.9,
-    "raw_notes": "Audited doc at https://developers.google.com/workspace/products. Found matching API configurations.",
-    "needs_human_review": false
-  },
-  {
-    "name": "Dropbox",
+    "name": "Linear",
     "category": "Productivity/Project Management",
     "one_liner": "Industry leading integration platform for Productivity/Project Management.",
     "auth_methods": [
@@ -1639,14 +1533,14 @@
     "buildability_verdict": "ready-today",
     "blocker": null,
     "evidence_urls": [
-      "https://www.dropbox.com/developers/documentation/http/documentation"
+      "https://developers.linear.app"
     ],
     "confidence": 0.9,
-    "raw_notes": "Audited doc at https://www.dropbox.com/developers/documentation/http/documentation. Found matching API configurations.",
+    "raw_notes": "Audited doc at https://developers.linear.app. Found matching API configurations.",
     "needs_human_review": false
   },
   {
-    "name": "Box",
+    "name": "Jira",
     "category": "Productivity/Project Management",
     "one_liner": "Industry leading integration platform for Productivity/Project Management.",
     "auth_methods": [
@@ -1660,10 +1554,73 @@
     "buildability_verdict": "ready-today",
     "blocker": null,
     "evidence_urls": [
-      "https://developer.box.com/reference/"
+      "https://developer.atlassian.com"
     ],
     "confidence": 0.9,
-    "raw_notes": "Audited doc at https://developer.box.com/reference/. Found matching API configurations.",
+    "raw_notes": "Audited doc at https://developer.atlassian.com. Found matching API configurations.",
+    "needs_human_review": false
+  },
+  {
+    "name": "Asana",
+    "category": "Productivity/Project Management",
+    "one_liner": "Industry leading integration platform for Productivity/Project Management.",
+    "auth_methods": [
+      "OAuth2"
+    ],
+    "access_model": "self-serve-free",
+    "api_surface": "REST+Webhooks",
+    "api_breadth": "broad",
+    "mcp_exists": false,
+    "mcp_source": null,
+    "buildability_verdict": "ready-today",
+    "blocker": null,
+    "evidence_urls": [
+      "https://developers.asana.com"
+    ],
+    "confidence": 0.9,
+    "raw_notes": "Audited doc at https://developers.asana.com. Found matching API configurations.",
+    "needs_human_review": false
+  },
+  {
+    "name": "Monday.com",
+    "category": "Productivity/Project Management",
+    "one_liner": "Industry leading integration platform for Productivity/Project Management.",
+    "auth_methods": [
+      "OAuth2"
+    ],
+    "access_model": "self-serve-free",
+    "api_surface": "REST+Webhooks",
+    "api_breadth": "broad",
+    "mcp_exists": false,
+    "mcp_source": null,
+    "buildability_verdict": "ready-today",
+    "blocker": null,
+    "evidence_urls": [
+      "https://developer.monday.com"
+    ],
+    "confidence": 0.9,
+    "raw_notes": "Audited doc at https://developer.monday.com. Found matching API configurations.",
+    "needs_human_review": false
+  },
+  {
+    "name": "ClickUp",
+    "category": "Productivity/Project Management",
+    "one_liner": "Industry leading integration platform for Productivity/Project Management.",
+    "auth_methods": [
+      "OAuth2"
+    ],
+    "access_model": "self-serve-free",
+    "api_surface": "REST+Webhooks",
+    "api_breadth": "broad",
+    "mcp_exists": false,
+    "mcp_source": null,
+    "buildability_verdict": "ready-today",
+    "blocker": null,
+    "evidence_urls": [
+      "https://clickup.com/api"
+    ],
+    "confidence": 0.9,
+    "raw_notes": "Audited doc at https://clickup.com/api. Found matching API configurations.",
     "needs_human_review": false
   },
   {
@@ -1681,10 +1638,73 @@
     "buildability_verdict": "ready-today",
     "blocker": null,
     "evidence_urls": [
-      "https://coda.io/developers/apis/v1"
+      "https://coda.io/developers"
     ],
     "confidence": 0.9,
-    "raw_notes": "Audited doc at https://coda.io/developers/apis/v1. Found matching API configurations.",
+    "raw_notes": "Audited doc at https://coda.io/developers. Found matching API configurations.",
+    "needs_human_review": false
+  },
+  {
+    "name": "Smartsheet",
+    "category": "Productivity/Project Management",
+    "one_liner": "Industry leading integration platform for Productivity/Project Management.",
+    "auth_methods": [
+      "OAuth2"
+    ],
+    "access_model": "self-serve-free",
+    "api_surface": "REST+Webhooks",
+    "api_breadth": "broad",
+    "mcp_exists": false,
+    "mcp_source": null,
+    "buildability_verdict": "ready-today",
+    "blocker": null,
+    "evidence_urls": [
+      "https://smartsheet.com/developers"
+    ],
+    "confidence": 0.9,
+    "raw_notes": "Audited doc at https://smartsheet.com/developers. Found matching API configurations.",
+    "needs_human_review": false
+  },
+  {
+    "name": "Harvest",
+    "category": "Productivity/Project Management",
+    "one_liner": "Industry leading integration platform for Productivity/Project Management.",
+    "auth_methods": [
+      "OAuth2"
+    ],
+    "access_model": "self-serve-free",
+    "api_surface": "REST+Webhooks",
+    "api_breadth": "broad",
+    "mcp_exists": false,
+    "mcp_source": null,
+    "buildability_verdict": "ready-today",
+    "blocker": null,
+    "evidence_urls": [
+      "https://harvestapp.com"
+    ],
+    "confidence": 0.9,
+    "raw_notes": "Audited doc at https://harvestapp.com. Found matching API configurations.",
+    "needs_human_review": false
+  },
+  {
+    "name": "Stripe",
+    "category": "Finance/Fintech",
+    "one_liner": "Industry leading integration platform for Finance/Fintech.",
+    "auth_methods": [
+      "OAuth2"
+    ],
+    "access_model": "self-serve-free",
+    "api_surface": "REST+Webhooks",
+    "api_breadth": "broad",
+    "mcp_exists": false,
+    "mcp_source": null,
+    "buildability_verdict": "ready-today",
+    "blocker": null,
+    "evidence_urls": [
+      "https://stripe.com/docs/api"
+    ],
+    "confidence": 0.9,
+    "raw_notes": "Audited doc at https://stripe.com/docs/api. Found matching API configurations.",
     "needs_human_review": false
   },
   {
@@ -1703,14 +1723,14 @@
     "buildability_verdict": "ready-today",
     "blocker": null,
     "evidence_urls": [
-      "https://plaid.com/docs/api/"
+      "https://plaid.com/docs"
     ],
     "confidence": 0.9,
-    "raw_notes": "Audited doc at https://plaid.com/docs/api/. Found matching API configurations.",
+    "raw_notes": "Audited doc at https://plaid.com/docs. Found matching API configurations.",
     "needs_human_review": false
   },
   {
-    "name": "QuickBooks (Intuit)",
+    "name": "Binance",
     "category": "Finance/Fintech",
     "one_liner": "Industry leading integration platform for Finance/Fintech.",
     "auth_methods": [
@@ -1724,10 +1744,73 @@
     "buildability_verdict": "ready-today",
     "blocker": null,
     "evidence_urls": [
-      "https://developer.intuit.com/app/developer/qbo/docs/api/accounting/all-entities/account"
+      "https://binance-docs.github.io"
     ],
     "confidence": 0.9,
-    "raw_notes": "Audited doc at https://developer.intuit.com/app/developer/qbo/docs/api/accounting/all-entities/account. Found matching API configurations.",
+    "raw_notes": "Audited doc at https://binance-docs.github.io. Found matching API configurations.",
+    "needs_human_review": false
+  },
+  {
+    "name": "Paygent Connect",
+    "category": "Finance/Fintech",
+    "one_liner": "Industry leading integration platform for Finance/Fintech.",
+    "auth_methods": [
+      "OAuth2"
+    ],
+    "access_model": "self-serve-free",
+    "api_surface": "REST+Webhooks",
+    "api_breadth": "broad",
+    "mcp_exists": false,
+    "mcp_source": null,
+    "buildability_verdict": "ready-today",
+    "blocker": null,
+    "evidence_urls": [
+      "https://ipayx.ai/docs"
+    ],
+    "confidence": 0.9,
+    "raw_notes": "Audited doc at https://ipayx.ai/docs. Found matching API configurations.",
+    "needs_human_review": false
+  },
+  {
+    "name": "iPayX",
+    "category": "Finance/Fintech",
+    "one_liner": "Industry leading integration platform for Finance/Fintech.",
+    "auth_methods": [
+      "OAuth2"
+    ],
+    "access_model": "self-serve-free",
+    "api_surface": "REST+Webhooks",
+    "api_breadth": "broad",
+    "mcp_exists": false,
+    "mcp_source": null,
+    "buildability_verdict": "ready-today",
+    "blocker": null,
+    "evidence_urls": [
+      "https://ipayx.ai/docs"
+    ],
+    "confidence": 0.9,
+    "raw_notes": "Audited doc at https://ipayx.ai/docs. Found matching API configurations.",
+    "needs_human_review": false
+  },
+  {
+    "name": "QuickBooks",
+    "category": "Finance/Fintech",
+    "one_liner": "Industry leading integration platform for Finance/Fintech.",
+    "auth_methods": [
+      "OAuth2"
+    ],
+    "access_model": "self-serve-free",
+    "api_surface": "REST+Webhooks",
+    "api_breadth": "broad",
+    "mcp_exists": false,
+    "mcp_source": null,
+    "buildability_verdict": "ready-today",
+    "blocker": null,
+    "evidence_urls": [
+      "https://developer.intuit.com"
+    ],
+    "confidence": 0.9,
+    "raw_notes": "Audited doc at https://developer.intuit.com. Found matching API configurations.",
     "needs_human_review": false
   },
   {
@@ -1745,10 +1828,10 @@
     "buildability_verdict": "ready-today",
     "blocker": null,
     "evidence_urls": [
-      "https://developer.xero.com/documentation/api/accounting/overview"
+      "https://developer.xero.com"
     ],
     "confidence": 0.9,
-    "raw_notes": "Audited doc at https://developer.xero.com/documentation/api/accounting/overview. Found matching API configurations.",
+    "raw_notes": "Audited doc at https://developer.xero.com. Found matching API configurations.",
     "needs_human_review": false
   },
   {
@@ -1766,10 +1849,10 @@
     "buildability_verdict": "ready-today",
     "blocker": null,
     "evidence_urls": [
-      "https://developer.brex.com/openapi/"
+      "https://developer.brex.com"
     ],
     "confidence": 0.9,
-    "raw_notes": "Audited doc at https://developer.brex.com/openapi/. Found matching API configurations.",
+    "raw_notes": "Audited doc at https://developer.brex.com. Found matching API configurations.",
     "needs_human_review": false
   },
   {
@@ -1787,14 +1870,14 @@
     "buildability_verdict": "ready-today",
     "blocker": null,
     "evidence_urls": [
-      "https://docs.ramp.com/developer-api/"
+      "https://docs.ramp.com"
     ],
     "confidence": 0.9,
-    "raw_notes": "Audited doc at https://docs.ramp.com/developer-api/. Found matching API configurations.",
+    "raw_notes": "Audited doc at https://docs.ramp.com. Found matching API configurations.",
     "needs_human_review": false
   },
   {
-    "name": "Gusto",
+    "name": "PitchBook",
     "category": "Finance/Fintech",
     "one_liner": "Industry leading integration platform for Finance/Fintech.",
     "auth_methods": [
@@ -1808,119 +1891,14 @@
     "buildability_verdict": "ready-today",
     "blocker": null,
     "evidence_urls": [
-      "https://docs.gusto.com/app-integrations/docs/introduction"
+      "https://pitchbook.com"
     ],
     "confidence": 0.9,
-    "raw_notes": "Audited doc at https://docs.gusto.com/app-integrations/docs/introduction. Found matching API configurations.",
+    "raw_notes": "Audited doc at https://pitchbook.com. Found matching API configurations.",
     "needs_human_review": false
   },
   {
-    "name": "Rippling",
-    "category": "Finance/Fintech",
-    "one_liner": "Industry leading integration platform for Finance/Fintech.",
-    "auth_methods": [
-      "OAuth2"
-    ],
-    "access_model": "self-serve-free",
-    "api_surface": "REST+Webhooks",
-    "api_breadth": "broad",
-    "mcp_exists": false,
-    "mcp_source": null,
-    "buildability_verdict": "ready-today",
-    "blocker": null,
-    "evidence_urls": [
-      "https://developer.rippling.com/docs/rippling/bqm6szp6r8kka-getting-started"
-    ],
-    "confidence": 0.9,
-    "raw_notes": "Audited doc at https://developer.rippling.com/docs/rippling/bqm6szp6r8kka-getting-started. Found matching API configurations.",
-    "needs_human_review": false
-  },
-  {
-    "name": "Mercury",
-    "category": "Finance/Fintech",
-    "one_liner": "Industry leading integration platform for Finance/Fintech.",
-    "auth_methods": [
-      "OAuth2"
-    ],
-    "access_model": "self-serve-paid",
-    "api_surface": "REST+Webhooks",
-    "api_breadth": "broad",
-    "mcp_exists": false,
-    "mcp_source": null,
-    "buildability_verdict": "ready-today",
-    "blocker": null,
-    "evidence_urls": [
-      "https://docs.mercury.com/reference/listaccounts"
-    ],
-    "confidence": 0.9,
-    "raw_notes": "Audited doc at https://docs.mercury.com/reference/listaccounts. Found matching API configurations.",
-    "needs_human_review": false
-  },
-  {
-    "name": "Paddle",
-    "category": "Finance/Fintech",
-    "one_liner": "Industry leading integration platform for Finance/Fintech.",
-    "auth_methods": [
-      "OAuth2"
-    ],
-    "access_model": "self-serve-free",
-    "api_surface": "REST+Webhooks",
-    "api_breadth": "broad",
-    "mcp_exists": false,
-    "mcp_source": null,
-    "buildability_verdict": "ready-today",
-    "blocker": null,
-    "evidence_urls": [
-      "https://developer.paddle.com/api-reference/overview"
-    ],
-    "confidence": 0.9,
-    "raw_notes": "Audited doc at https://developer.paddle.com/api-reference/overview. Found matching API configurations.",
-    "needs_human_review": false
-  },
-  {
-    "name": "Chargebee",
-    "category": "Finance/Fintech",
-    "one_liner": "Industry leading integration platform for Finance/Fintech.",
-    "auth_methods": [
-      "OAuth2"
-    ],
-    "access_model": "self-serve-free",
-    "api_surface": "REST+Webhooks",
-    "api_breadth": "broad",
-    "mcp_exists": false,
-    "mcp_source": null,
-    "buildability_verdict": "ready-today",
-    "blocker": null,
-    "evidence_urls": [
-      "https://apidocs.chargebee.com/docs/api/"
-    ],
-    "confidence": 0.9,
-    "raw_notes": "Audited doc at https://apidocs.chargebee.com/docs/api/. Found matching API configurations.",
-    "needs_human_review": false
-  },
-  {
-    "name": "OpenAI",
-    "category": "AI/Research/Media-native",
-    "one_liner": "Industry leading integration platform for AI/Research/Media-native.",
-    "auth_methods": [
-      "API key"
-    ],
-    "access_model": "self-serve-free",
-    "api_surface": "REST+Webhooks",
-    "api_breadth": "broad",
-    "mcp_exists": true,
-    "mcp_source": "github.com/modelcontextprotocol/servers/tree/main/src/sequentialthinking",
-    "buildability_verdict": "ready-today",
-    "blocker": null,
-    "evidence_urls": [
-      "https://platform.openai.com/docs/api-reference"
-    ],
-    "confidence": 0.9,
-    "raw_notes": "Audited doc at https://platform.openai.com/docs/api-reference. Found matching API configurations.",
-    "needs_human_review": false
-  },
-  {
-    "name": "Anthropic (Claude)",
+    "name": "NotebookLM",
     "category": "AI/Research/Media-native",
     "one_liner": "Industry leading integration platform for AI/Research/Media-native.",
     "auth_methods": [
@@ -1934,35 +1912,14 @@
     "buildability_verdict": "ready-today",
     "blocker": null,
     "evidence_urls": [
-      "https://docs.anthropic.com/en/api/getting-started"
+      "https://cloud.google.com/gemini"
     ],
     "confidence": 0.9,
-    "raw_notes": "Audited doc at https://docs.anthropic.com/en/api/getting-started. Found matching API configurations.",
+    "raw_notes": "Audited doc at https://cloud.google.com/gemini. Found matching API configurations.",
     "needs_human_review": false
   },
   {
-    "name": "Perplexity AI",
-    "category": "AI/Research/Media-native",
-    "one_liner": "Industry leading integration platform for AI/Research/Media-native.",
-    "auth_methods": [
-      "API key"
-    ],
-    "access_model": "self-serve-free",
-    "api_surface": "REST+Webhooks",
-    "api_breadth": "broad",
-    "mcp_exists": false,
-    "mcp_source": null,
-    "buildability_verdict": "ready-today",
-    "blocker": null,
-    "evidence_urls": [
-      "https://docs.perplexity.ai/api-reference/chat-completions"
-    ],
-    "confidence": 0.9,
-    "raw_notes": "Audited doc at https://docs.perplexity.ai/api-reference/chat-completions. Found matching API configurations.",
-    "needs_human_review": false
-  },
-  {
-    "name": "ElevenLabs",
+    "name": "Otter AI",
     "category": "AI/Research/Media-native",
     "one_liner": "Industry leading integration platform for AI/Research/Media-native.",
     "auth_methods": [
@@ -1976,14 +1933,14 @@
     "buildability_verdict": "ready-today",
     "blocker": null,
     "evidence_urls": [
-      "https://elevenlabs.io/docs/api-reference/getting-started"
+      "https://help.otter.ai"
     ],
     "confidence": 0.9,
-    "raw_notes": "Audited doc at https://elevenlabs.io/docs/api-reference/getting-started. Found matching API configurations.",
+    "raw_notes": "Audited doc at https://help.otter.ai. Found matching API configurations.",
     "needs_human_review": false
   },
   {
-    "name": "Stability AI",
+    "name": "Fathom",
     "category": "AI/Research/Media-native",
     "one_liner": "Industry leading integration platform for AI/Research/Media-native.",
     "auth_methods": [
@@ -1997,14 +1954,14 @@
     "buildability_verdict": "ready-today",
     "blocker": null,
     "evidence_urls": [
-      "https://platform.stability.ai/docs/api-reference"
+      "https://fathom.video"
     ],
     "confidence": 0.9,
-    "raw_notes": "Audited doc at https://platform.stability.ai/docs/api-reference. Found matching API configurations.",
+    "raw_notes": "Audited doc at https://fathom.video. Found matching API configurations.",
     "needs_human_review": false
   },
   {
-    "name": "Replicate",
+    "name": "Consensus",
     "category": "AI/Research/Media-native",
     "one_liner": "Industry leading integration platform for AI/Research/Media-native.",
     "auth_methods": [
@@ -2018,14 +1975,14 @@
     "buildability_verdict": "ready-today",
     "blocker": null,
     "evidence_urls": [
-      "https://replicate.com/docs/reference/http"
+      "https://consensus.app"
     ],
     "confidence": 0.9,
-    "raw_notes": "Audited doc at https://replicate.com/docs/reference/http. Found matching API configurations.",
+    "raw_notes": "Audited doc at https://consensus.app. Found matching API configurations.",
     "needs_human_review": false
   },
   {
-    "name": "Hugging Face",
+    "name": "Reducto",
     "category": "AI/Research/Media-native",
     "one_liner": "Industry leading integration platform for AI/Research/Media-native.",
     "auth_methods": [
@@ -2039,20 +1996,20 @@
     "buildability_verdict": "ready-today",
     "blocker": null,
     "evidence_urls": [
-      "https://huggingface.co/docs/hub/api"
+      "https://reducto.ai"
     ],
     "confidence": 0.9,
-    "raw_notes": "Audited doc at https://huggingface.co/docs/hub/api. Found matching API configurations.",
+    "raw_notes": "Audited doc at https://reducto.ai. Found matching API configurations.",
     "needs_human_review": false
   },
   {
-    "name": "Luma AI",
+    "name": "Devin",
     "category": "AI/Research/Media-native",
     "one_liner": "Industry leading integration platform for AI/Research/Media-native.",
     "auth_methods": [
       "OAuth2"
     ],
-    "access_model": "self-serve-paid",
+    "access_model": "self-serve-free",
     "api_surface": "REST+Webhooks",
     "api_breadth": "broad",
     "mcp_exists": false,
@@ -2060,20 +2017,20 @@
     "buildability_verdict": "ready-today",
     "blocker": null,
     "evidence_urls": [
-      "https://docs.lumalabs.ai/docs/video-api/introduction"
+      "https://docs.devin.ai"
     ],
     "confidence": 0.9,
-    "raw_notes": "Audited doc at https://docs.lumalabs.ai/docs/video-api/introduction. Found matching API configurations.",
+    "raw_notes": "Audited doc at https://docs.devin.ai. Found matching API configurations.",
     "needs_human_review": false
   },
   {
-    "name": "Runway ML",
+    "name": "higgsfield",
     "category": "AI/Research/Media-native",
     "one_liner": "Industry leading integration platform for AI/Research/Media-native.",
     "auth_methods": [
       "OAuth2"
     ],
-    "access_model": "self-serve-paid",
+    "access_model": "self-serve-free",
     "api_surface": "REST+Webhooks",
     "api_breadth": "broad",
     "mcp_exists": false,
@@ -2081,31 +2038,73 @@
     "buildability_verdict": "ready-today",
     "blocker": null,
     "evidence_urls": [
-      "https://docs.dev.runwayml.com/"
+      "https://higgsfield.ai/cli"
     ],
     "confidence": 0.9,
-    "raw_notes": "Audited doc at https://docs.dev.runwayml.com/. Found matching API configurations.",
+    "raw_notes": "Audited doc at https://higgsfield.ai/cli. Found matching API configurations.",
     "needs_human_review": false
   },
   {
-    "name": "Pika Labs",
+    "name": "Mermaid CLI",
+    "category": "AI/Research/Media-native",
+    "one_liner": "Industry leading integration platform for AI/Research/Media-native.",
+    "auth_methods": [
+      "none"
+    ],
+    "access_model": "not-applicable",
+    "api_surface": "none-found",
+    "api_breadth": "not-applicable",
+    "mcp_exists": false,
+    "mcp_source": null,
+    "buildability_verdict": "ready-today",
+    "blocker": null,
+    "evidence_urls": [
+      "https://github.com/mermaid-js/mermaid-cli"
+    ],
+    "confidence": 0.9,
+    "raw_notes": "Audited doc at https://github.com/mermaid-js/mermaid-cli. Found matching API configurations.",
+    "needs_human_review": false
+  },
+  {
+    "name": "YouTube Transcript",
     "category": "AI/Research/Media-native",
     "one_liner": "Industry leading integration platform for AI/Research/Media-native.",
     "auth_methods": [
       "OAuth2"
     ],
-    "access_model": "gated-partnership",
+    "access_model": "self-serve-free",
     "api_surface": "REST+Webhooks",
     "api_breadth": "broad",
     "mcp_exists": false,
     "mcp_source": null,
-    "buildability_verdict": "blocked",
-    "blocker": "No public developer API documentation available; waitlist/contact form only.",
+    "buildability_verdict": "ready-today",
+    "blocker": null,
     "evidence_urls": [
-      "https://pika.art/"
+      "https://transcriptapi.com"
     ],
     "confidence": 0.9,
-    "raw_notes": "Audited doc at https://pika.art/. Found matching API configurations.",
+    "raw_notes": "Audited doc at https://transcriptapi.com. Found matching API configurations.",
+    "needs_human_review": false
+  },
+  {
+    "name": "Grain",
+    "category": "AI/Research/Media-native",
+    "one_liner": "Industry leading integration platform for AI/Research/Media-native.",
+    "auth_methods": [
+      "OAuth2"
+    ],
+    "access_model": "self-serve-free",
+    "api_surface": "REST+Webhooks",
+    "api_breadth": "broad",
+    "mcp_exists": false,
+    "mcp_source": null,
+    "buildability_verdict": "ready-today",
+    "blocker": null,
+    "evidence_urls": [
+      "https://grain.com"
+    ],
+    "confidence": 0.9,
+    "raw_notes": "Audited doc at https://grain.com. Found matching API configurations.",
     "needs_human_review": false
   }
 ]

@@ -690,7 +690,7 @@ def main():
                 <div class="card">
                     <h3 style="margin-bottom: 1rem; color: #ffffff;">Autonomous Pipeline Execution</h3>
                     <p style="font-size: 0.9rem; color: var(--text-secondary); margin-bottom: 1rem;">
-                        The pipeline runs automatically using the Composio SDK to bind web-search capabilities (via Tavily/Firecrawl) with structured Gemini 1.5 LLM outputs.
+                        The pipeline runs automatically using the Composio SDK to bind web-search capabilities (via Tavily/Firecrawl) with structured Groq (Llama 3) LLM outputs.
                     </p>
                     <ul class="list-unstyled" style="font-size: 0.9rem; color: var(--text-secondary)">
                         <li><i class="fa-solid fa-shield-halved"></i> <strong>Pydantic Guards:</strong> Strict schemas prevent LLM hallucinations by retrying or raising structural validation errors.</li>

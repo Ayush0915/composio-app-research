@@ -149,7 +149,7 @@ def research_app_sync(
     hint_url: str,
     category: str,
     composio_toolset=None,
-    gemini_client=None,
+    groq_client=None,
 ) -> dict:
     """
     Synchronous version of research_app. Handles retries and schema validation.
@@ -164,14 +164,14 @@ def research_app_sync(
         try:
             logger.info(f"[{name}] Attempt {attempt}/{MAX_RETRIES} ...")
 
-            if gemini_client is not None and composio_toolset is not None:
-                # Use Composio toolset with Gemini
-                response_text = _call_gemini_with_composio(
-                    prompt, name, composio_toolset, gemini_client
+            if groq_client is not None and composio_toolset is not None:
+                # Use Composio toolset with Groq
+                response_text = _call_groq_with_composio(
+                    prompt, name, composio_toolset, groq_client
                 )
             else:
-                # Fallback: direct Gemini call (no search tools)
-                response_text = _call_gemini_direct(prompt, gemini_client)
+                # Fallback: direct Groq call (no search tools)
+                response_text = _call_groq_direct(prompt, groq_client)
 
             # Parse JSON
             json_str = _extract_json(response_text)
@@ -217,64 +217,66 @@ def research_app_sync(
     }
 
 
-def _call_gemini_with_composio(
-    prompt: str, app_name: str, composio_toolset, gemini_client
+def _call_groq_with_composio(
+    prompt: str, app_name: str, composio_toolset, groq_client
 ) -> str:
-    """Call Gemini with Composio's Tavily search tools attached."""
-    from google.genai import types
-
-    # Get Composio tools formatted for google-genai provider
+    """Call Groq with Composio's Tavily search tools attached."""
+    # Get tools from Composio wrapped for Groq/OpenAI format
     try:
         raw_tools = composio_toolset.tools.get_raw_composio_tools(toolkits=["tavily"])
-        google_tools = composio_toolset.provider.wrap_tools(raw_tools)
+        groq_tools = composio_toolset.provider.wrap_tools(raw_tools)
     except Exception as e:
-        # Fallback to direct call if Composio tool fetch fails
-        logger.warning(f"[{app_name}] Could not fetch Composio tools ({e}), falling back to direct Gemini.")
-        return _call_gemini_direct(prompt, gemini_client)
+        logger.warning(f"[{app_name}] Could not fetch Composio tools ({e}), falling back to direct Groq.")
+        return _call_groq_direct(prompt, groq_client)
 
     try:
-        config = types.GenerateContentConfig(
-            tools=google_tools,
-            temperature=0.1
-        )
-        chat = gemini_client.chats.create(model="gemini-2.0-flash", config=config)
-        response = chat.send_message(prompt)
-
-        # Gemini tool execution loop (max 5 tool calls)
+        messages = [{"role": "user", "content": prompt}]
+        
+        # Groq tool execution loop (max 5 tool calls)
         for _ in range(5):
-            if not response.function_calls:
-                break
-                
-            parts = []
-            for fc in response.function_calls:
-                # Execute tool via Composio provider
+            response = groq_client.chat.completions.create(
+                model="llama-3.3-70b-versatile",
+                messages=messages,
+                tools=groq_tools,
+                temperature=0.1
+            )
+            message = response.choices[0].message
+            messages.append(message)
+
+            if not message.tool_calls:
+                return message.content or ""
+
+            # Execute tool calls
+            for tool_call in message.tool_calls:
                 result = composio_toolset.provider.execute_tool_call(
                     user_id="default",
-                    function_call=fc
+                    tool_call=tool_call
                 )
-                # Convert the Composio response to google-genai Part response
-                parts.append(
-                    types.Part.from_function_response(
-                        name=fc.name,
-                        response=result.model_dump() if hasattr(result, "model_dump") else result
-                    )
-                )
-            # Send tool results back to Gemini chat
-            response = chat.send_message(parts)
+                
+                output = result.model_dump() if hasattr(result, "model_dump") else result
+                
+                messages.append({
+                    "role": "tool",
+                    "tool_call_id": tool_call.id,
+                    "name": tool_call.function.name,
+                    "content": json.dumps(output) if isinstance(output, dict) else str(output)
+                })
 
-        return response.text or ""
+        return messages[-1].content if messages[-1].get("role") == "assistant" else ""
+
     except Exception as e:
-        logger.warning(f"[{app_name}] Composio tool call loop failed ({e}), falling back.")
-        return _call_gemini_direct(prompt, gemini_client)
+        logger.warning(f"[{app_name}] Composio Groq tool call loop failed ({e}), falling back.")
+        return _call_groq_direct(prompt, groq_client)
 
 
-def _call_gemini_direct(prompt: str, gemini_client) -> str:
-    """Direct Gemini call without search tools (fallback)."""
-    response = gemini_client.models.generate_content(
-        model="gemini-2.0-flash",
-        contents=prompt
+def _call_groq_direct(prompt: str, groq_client) -> str:
+    """Direct Groq call without search tools (fallback)."""
+    response = groq_client.chat.completions.create(
+        model="llama-3.3-70b-versatile",
+        messages=[{"role": "user", "content": prompt}],
+        temperature=0.1
     )
-    return response.text or ""
+    return response.choices[0].message.content or ""
 
 
 # ---------------------------------------------------------------------------
@@ -287,7 +289,7 @@ async def research_app_async(
     category: str,
     semaphore: asyncio.Semaphore,
     composio_toolset,
-    gemini_client,
+    groq_client,
 ) -> dict:
     """Async wrapper around synchronous research_app_sync."""
     async with semaphore:
@@ -299,7 +301,7 @@ async def research_app_async(
             hint_url,
             category,
             composio_toolset,
-            gemini_client,
+            groq_client,
         )
         save_checkpoint(result)
         return result
@@ -313,22 +315,22 @@ async def run_research(apps: list[dict], limit: Optional[int] = None) -> list[di
         apps: list of {"name": ..., "hint_url": ..., "category": ...}
         limit: if set, only process this many apps (for testing)
     """
-    from google import genai
+    from groq import Groq
     from composio import Composio
-    from composio_google import GoogleProvider
+    from composio_groq import GroqProvider
 
     # Initialise clients
-    gemini_api_key = os.getenv("GEMINI_API_KEY")
+    groq_api_key = os.getenv("GROQ_API_KEY")
     composio_api_key = os.getenv("COMPOSIO_API_KEY")
 
-    if not gemini_api_key:
-        raise EnvironmentError("GEMINI_API_KEY not set in environment")
+    if not groq_api_key:
+        raise EnvironmentError("GROQ_API_KEY not set in environment")
     if not composio_api_key:
         raise EnvironmentError("COMPOSIO_API_KEY not set in environment")
 
-    # genai Client
-    gemini_model = genai.Client(api_key=gemini_api_key)
-    composio_toolset = Composio(api_key=composio_api_key, provider=GoogleProvider())
+    # groq Client
+    groq_client = Groq(api_key=groq_api_key)
+    composio_toolset = Composio(api_key=composio_api_key, provider=GroqProvider())
 
     # Load checkpoint — skip already-done apps
     done = load_checkpoint()
@@ -350,7 +352,7 @@ async def run_research(apps: list[dict], limit: Optional[int] = None) -> list[di
     tasks = [
         research_app_async(
             a["name"], a["hint_url"], a["category"],
-            semaphore, composio_toolset, gemini_model
+            semaphore, composio_toolset, groq_client
         )
         for a in pending
     ]

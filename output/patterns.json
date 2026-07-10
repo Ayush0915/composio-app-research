@@ -2,18 +2,18 @@
   "total_apps": 100,
   "auth_distribution": {
     "OAuth2": {
-      "count": 90,
-      "percent": 90.0
+      "count": 95,
+      "percent": 95.0
     },
     "API key": {
-      "count": 11,
-      "percent": 11.0
-    },
-    "Bearer token": {
-      "count": 3,
-      "percent": 3.0
+      "count": 6,
+      "percent": 6.0
     },
     "Basic": {
+      "count": 2,
+      "percent": 2.0
+    },
+    "Bearer token": {
       "count": 2,
       "percent": 2.0
     },
@@ -21,31 +21,27 @@
       "count": 1,
       "percent": 1.0
     },
-    "none": {
+    "token": {
       "count": 1,
       "percent": 1.0
     },
-    "token": {
+    "none": {
       "count": 1,
       "percent": 1.0
     }
   },
   "access_model_distribution": {
     "self-serve-free": {
-      "count": 82,
-      "percent": 82.0
+      "count": 94,
+      "percent": 94.0
     },
     "self-serve-paid": {
-      "count": 11,
-      "percent": 11.0
-    },
-    "gated-partnership": {
       "count": 4,
       "percent": 4.0
     },
-    "gated-approval": {
-      "count": 2,
-      "percent": 2.0
+    "gated-partnership": {
+      "count": 1,
+      "percent": 1.0
     },
     "not-applicable": {
       "count": 1,
@@ -54,30 +50,25 @@
   },
   "category_x_access_model": {
     "CRM/Sales": {
-      "self-serve-free": 7,
-      "self-serve-paid": 1,
-      "gated-partnership": 2
+      "self-serve-free": 9,
+      "self-serve-paid": 1
     },
     "Support/Helpdesk": {
       "self-serve-free": 9,
       "gated-partnership": 1
     },
     "Communications/Messaging": {
-      "self-serve-free": 9,
-      "gated-approval": 1
+      "self-serve-free": 10
     },
     "Marketing/Ads/Email/Social": {
-      "self-serve-free": 8,
-      "self-serve-paid": 2
+      "self-serve-free": 10
     },
     "Ecommerce": {
-      "self-serve-free": 9,
-      "gated-approval": 1
+      "self-serve-free": 10
     },
     "Data/SEO/Scraping": {
-      "self-serve-paid": 3,
-      "not-applicable": 1,
-      "self-serve-free": 6
+      "self-serve-free": 9,
+      "self-serve-paid": 1
     },
     "Developer/Infra/Data platforms": {
       "self-serve-free": 10
@@ -86,40 +77,36 @@
       "self-serve-free": 10
     },
     "Finance/Fintech": {
-      "self-serve-free": 7,
-      "self-serve-paid": 3
+      "self-serve-free": 8,
+      "self-serve-paid": 2
     },
     "AI/Research/Media-native": {
-      "self-serve-free": 7,
-      "self-serve-paid": 2,
-      "gated-partnership": 1
+      "self-serve-free": 9,
+      "not-applicable": 1
     }
   },
   "blocker_frequency": {
-    "Paid subscription plan required to retrieve API tokens; no free tier.": 3,
-    "Requires active partnership contact or enterprise tier sales gate.": 2,
     "API credentials only available for paying customers; no trial environment.": 1,
-    "Requires professional seller account credentials and AWS IAM registration.": 1,
-    "No public developer API documentation available; waitlist/contact form only.": 1
+    "Paid subscription plan required to retrieve API tokens; no free tier.": 1
   },
   "mcp_distribution": {
     "mcp_exists": {
-      "count": 11,
-      "percent": 11.0
+      "count": 8,
+      "percent": 8.0
     },
     "mcp_not_found": {
-      "count": 89,
-      "percent": 89.0
+      "count": 92,
+      "percent": 92.0
     }
   },
   "buildability_summary": {
     "ready_today": {
-      "count": 92,
-      "percent": 92.0
+      "count": 98,
+      "percent": 98.0
     },
     "blocked": {
-      "count": 8,
-      "percent": 8.0
+      "count": 2,
+      "percent": 2.0
     }
   }
 }

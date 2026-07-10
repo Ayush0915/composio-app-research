@@ -189,8 +189,8 @@ def test_non_saas_edge_case():
     from research_agent import research_app_sync
     
     mock_client = MagicMock()
-    mock_response = MagicMock()
-    mock_response.text = """
+    mock_choice = MagicMock()
+    mock_choice.message.content = """
     {
       "name": "Mermaid CLI",
       "category": "AI/Research/Media-native",
@@ -209,14 +209,14 @@ def test_non_saas_edge_case():
       "needs_human_review": false
     }
     """
-    mock_client.models.generate_content.return_value = mock_response
+    mock_client.chat.completions.create.return_value = MagicMock(choices=[mock_choice])
 
     result = research_app_sync(
         name="Mermaid CLI",
         hint_url="https://github.com/mermaid-js/mermaid-cli",
         category="AI/Research/Media-native",
         composio_toolset=None,
-        gemini_client=mock_client
+        groq_client=mock_client
     )
     
     assert result["name"] == "Mermaid CLI"
@@ -227,8 +227,8 @@ def test_non_saas_edge_case():
 
 
 @pytest.mark.skipif(
-    not (os.getenv("GEMINI_API_KEY") and os.getenv("COMPOSIO_API_KEY")),
-    reason="Requires active GEMINI_API_KEY and COMPOSIO_API_KEY to run live research."
+    not (os.getenv("GROQ_API_KEY") and os.getenv("COMPOSIO_API_KEY")),
+    reason="Requires active GROQ_API_KEY and COMPOSIO_API_KEY to run live research."
 )
 @pytest.mark.asyncio
 async def test_integration_research_known_apps():

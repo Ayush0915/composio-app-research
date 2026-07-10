@@ -92,7 +92,7 @@ def _extract_json(text: str) -> Optional[str]:
 def verify_app_sync(
     name: str,
     hint_url: str,
-    gemini_client,
+    groq_client,
 ) -> dict:
     """Run independent pass-2 research for a single app."""
     import re
@@ -100,11 +100,12 @@ def verify_app_sync(
 
     for attempt in range(1, 4):
         try:
-            response = gemini_client.models.generate_content(
-                model="gemini-2.0-flash",
-                contents=prompt
+            response = groq_client.chat.completions.create(
+                model="llama-3.3-70b-versatile",
+                messages=[{"role": "user", "content": prompt}],
+                temperature=0.1
             )
-            json_str = _extract_json(response.text or "")
+            json_str = _extract_json(response.choices[0].message.content or "")
             if not json_str:
                 raise ValueError("No JSON in response")
             data = json.loads(json_str)
@@ -161,13 +162,13 @@ def _stratified_sample(records: list[dict], n: int) -> list[dict]:
 
 def run_verification() -> AccuracyReport:
     """Main verification pipeline."""
-    from google import genai
+    from groq import Groq
 
-    gemini_api_key = os.getenv("GEMINI_API_KEY")
-    if not gemini_api_key:
-        raise EnvironmentError("GEMINI_API_KEY not set")
+    groq_api_key = os.getenv("GROQ_API_KEY")
+    if not groq_api_key:
+        raise EnvironmentError("GROQ_API_KEY not set")
 
-    gemini_client = genai.Client(api_key=gemini_api_key)
+    groq_client = Groq(api_key=groq_api_key)
 
     # Load pass-1 results
     if not RESULTS_RAW.exists():
@@ -199,7 +200,7 @@ def run_verification() -> AccuracyReport:
         name = record["name"]
         hint_url = hint_url_map.get(name, record.get("evidence_urls", [""])[0])
 
-        pass2 = verify_app_sync(name, hint_url, gemini_client)
+        pass2 = verify_app_sync(name, hint_url, groq_client)
 
         app_disagrees = False
         for field in FIELDS_TO_CHECK:
